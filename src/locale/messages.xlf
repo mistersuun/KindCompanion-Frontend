@@ -1,0 +1,2158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-CA">
+  <file id="ngi18n" original="ng.template">
+    <unit id="booking.hero.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:16,17</note>
+      </notes>
+      <segment>
+        <source>Book Your Free Consultation</source>
+      </segment>
+    </unit>
+    <unit id="booking.hero.subtitle">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:18,20</note>
+      </notes>
+      <segment>
+        <source> Take the first step towards compassionate companion care. Our consultation is completely free and helps us understand your unique needs to create the perfect care plan. </source>
+      </segment>
+    </unit>
+    <unit id="booking.hero.badge.free">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:24,26</note>
+      </notes>
+      <segment>
+        <source>100% Free</source>
+      </segment>
+    </unit>
+    <unit id="booking.hero.badge.minutes">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:28,30</note>
+      </notes>
+      <segment>
+        <source>30 Minutes</source>
+      </segment>
+    </unit>
+    <unit id="booking.hero.badge.commitment">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:32,34</note>
+      </notes>
+      <segment>
+        <source>No Commitment</source>
+      </segment>
+    </unit>
+    <unit id="booking.form.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:49,50</note>
+      </notes>
+      <segment>
+        <source>Schedule Your Consultation</source>
+      </segment>
+    </unit>
+    <unit id="booking.form.subtitle">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:50,53</note>
+      </notes>
+      <segment>
+        <source>Fill out the form below and we&apos;ll contact you within 24 hours to schedule your free consultation.</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:56,58</note>
+      </notes>
+      <segment>
+        <source>Personal Information</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.firstName">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:60,62</note>
+      </notes>
+      <segment>
+        <source>First Name *</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.firstName.error">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:69,71</note>
+      </notes>
+      <segment>
+        <source>First name is required</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.lastName">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:74,76</note>
+      </notes>
+      <segment>
+        <source>Last Name *</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.lastName.error">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:83,85</note>
+      </notes>
+      <segment>
+        <source>Last name is required</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.email">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:90,92</note>
+      </notes>
+      <segment>
+        <source>Email Address *</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.email.required">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:99,100</note>
+      </notes>
+      <segment>
+        <source>Email is required</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.email.invalid">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:100,102</note>
+      </notes>
+      <segment>
+        <source>Please enter a valid email</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.phone">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:105,107</note>
+      </notes>
+      <segment>
+        <source>Phone Number *</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.phone.error">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:115,117</note>
+      </notes>
+      <segment>
+        <source>Phone number is required</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.relationship">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:121,122</note>
+      </notes>
+      <segment>
+        <source>Your Relationship to the Person Needing Care *</source>
+      </segment>
+    </unit>
+    <unit id="booking.personal.relationship.error">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:129,131</note>
+      </notes>
+      <segment>
+        <source>Please select your relationship</source>
+      </segment>
+    </unit>
+    <unit id="booking.client.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:136,138</note>
+      </notes>
+      <segment>
+        <source>Care Recipient Information</source>
+      </segment>
+    </unit>
+    <unit id="booking.client.age">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:140,141</note>
+      </notes>
+      <segment>
+        <source>Age of Person Needing Care</source>
+      </segment>
+    </unit>
+    <unit id="booking.client.living">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:149,150</note>
+      </notes>
+      <segment>
+        <source>Current Living Situation</source>
+      </segment>
+    </unit>
+    <unit id="booking.client.address">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:159,161</note>
+      </notes>
+      <segment>
+        <source>Address (for service area verification)</source>
+      </segment>
+    </unit>
+    <unit id="booking.client.address.placeholder">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:165</note>
+      </notes>
+      <segment>
+        <source>Enter the address where services would be provided</source>
+      </segment>
+    </unit>
+    <unit id="booking.client.address.help">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:167,169</note>
+      </notes>
+      <segment>
+        <source>We serve the Greater Montreal Area</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:173,175</note>
+      </notes>
+      <segment>
+        <source>Care Needs &amp; Preferences</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.services">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:176,177</note>
+      </notes>
+      <segment>
+        <source>Which services are you interested in? (Check all that apply)</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.companionship">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:181,183</note>
+      </notes>
+      <segment>
+        <source>Daily Companionship &amp; Social Interaction</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.mobility">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:186,188</note>
+      </notes>
+      <segment>
+        <source>Mobility Assistance &amp; Safety Support</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.technology">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:191,193</note>
+      </notes>
+      <segment>
+        <source>Technology Support &amp; Communication</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.errands">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:196,197</note>
+      </notes>
+      <segment>
+        <source>Errands &amp; Transportation</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.meals">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:201,202</note>
+      </notes>
+      <segment>
+        <source>Meal Preparation &amp; Nutrition</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.respite">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:206,207</note>
+      </notes>
+      <segment>
+        <source>Respite Care for Family Caregivers</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.urgency">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:213,214</note>
+      </notes>
+      <segment>
+        <source>How soon do you need services?</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.hours">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:222,223</note>
+      </notes>
+      <segment>
+        <source>Estimated hours needed per week</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.times">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:232,233</note>
+      </notes>
+      <segment>
+        <source>Preferred days/times for care</source>
+      </segment>
+    </unit>
+    <unit id="booking.needs.times.placeholder">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:238</note>
+      </notes>
+      <segment>
+        <source>e.g., Monday-Friday mornings, weekends, evenings, specific days...</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:245,247</note>
+      </notes>
+      <segment>
+        <source>Additional Information</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.medical">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:248,250</note>
+      </notes>
+      <segment>
+        <source>Medical conditions or special considerations</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.medical.placeholder">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:254</note>
+      </notes>
+      <segment>
+        <source>Please share any medical conditions, mobility challenges, dietary restrictions, or special care needs we should know about...</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.medical.help">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:256,259</note>
+      </notes>
+      <segment>
+        <source>This information helps us match you with the right companion</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.notes">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:260,262</note>
+      </notes>
+      <segment>
+        <source>Questions or additional information</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.notes.placeholder">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:266</note>
+      </notes>
+      <segment>
+        <source>Tell us more about what you&apos;re looking for, any specific preferences for companions, questions about our services, or anything else we should know...</source>
+      </segment>
+    </unit>
+    <unit id="booking.additional.consultation">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:271,273</note>
+      </notes>
+      <segment>
+        <source>Preferred time for consultation call</source>
+      </segment>
+    </unit>
+    <unit id="booking.consent.privacy">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:290,291</note>
+      </notes>
+      <segment>
+        <source>I agree to KindCompanion&apos;s <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;/legal#privacy&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Privacy Policy</pc> and consent to being contacted about companion services.</source>
+      </segment>
+    </unit>
+    <unit id="booking.consent.privacy.error">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:293,296</note>
+      </notes>
+      <segment>
+        <source>Please accept the privacy policy to continue</source>
+      </segment>
+    </unit>
+    <unit id="booking.consent.marketing">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:299,301</note>
+      </notes>
+      <segment>
+        <source>I would like to receive helpful tips and updates about eldercare and KindCompanion services (optional)</source>
+      </segment>
+    </unit>
+    <unit id="booking.submit.text">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:316,318</note>
+      </notes>
+      <segment>
+        <source>Schedule Free Consultation</source>
+      </segment>
+    </unit>
+    <unit id="booking.submit.loading">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:320,322</note>
+      </notes>
+      <segment>
+        <source>Submitting...</source>
+      </segment>
+    </unit>
+    <unit id="booking.submit.footer">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:324,326</note>
+      </notes>
+      <segment>
+        <source> We&apos;ll contact you within 24 hours to schedule your free consultation. For immediate assistance, call <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;tel:+1-514-555-0123&quot;&gt;" dispEnd="&lt;/a&gt;">(514) 555-0123</pc></source>
+      </segment>
+    </unit>
+    <unit id="booking.success.title">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:338,339</note>
+      </notes>
+      <segment>
+        <source>Consultation Request Submitted!</source>
+      </segment>
+    </unit>
+    <unit id="booking.success.message">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:339,340</note>
+      </notes>
+      <segment>
+        <source>Thank you for your interest in KindCompanion services. We&apos;ve received your consultation request and will contact you within 24 hours to schedule your free consultation.</source>
+      </segment>
+    </unit>
+    <unit id="booking.success.nextSteps">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:341,343</note>
+      </notes>
+      <segment>
+        <source>What happens next:</source>
+      </segment>
+    </unit>
+    <unit id="booking.success.step1">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:343,344</note>
+      </notes>
+      <segment>
+        <source>Our care coordinator will call you to schedule your consultation</source>
+      </segment>
+    </unit>
+    <unit id="booking.success.step2">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:344,345</note>
+      </notes>
+      <segment>
+        <source>We&apos;ll discuss your needs and answer any questions</source>
+      </segment>
+    </unit>
+    <unit id="booking.success.step3">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:345,347</note>
+      </notes>
+      <segment>
+        <source>If you decide to proceed, we&apos;ll match you with the perfect companion</source>
+      </segment>
+    </unit>
+    <unit id="booking.success.close">
+      <notes>
+        <note category="location">src/app/features/booking/booking.component.ts:348,350</note>
+      </notes>
+      <segment>
+        <source>Got it!</source>
+      </segment>
+    </unit>
+    <unit id="companions.hero.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:39,40</note>
+      </notes>
+      <segment>
+        <source>Meet Our Caring Companions</source>
+      </segment>
+    </unit>
+    <unit id="companions.hero.description">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:41,44</note>
+      </notes>
+      <segment>
+        <source> Our team of certified, compassionate companions are carefully selected and trained to provide exceptional care. Each companion undergoes thorough background checks, skills assessment, and ongoing education to ensure the highest quality of service. </source>
+      </segment>
+    </unit>
+    <unit id="companions.stats.companions">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:48,50</note>
+      </notes>
+      <segment>
+        <source>Certified Companions</source>
+      </segment>
+    </unit>
+    <unit id="companions.stats.background">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:52,54</note>
+      </notes>
+      <segment>
+        <source>Background Checked</source>
+      </segment>
+    </unit>
+    <unit id="companions.stats.languages">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:56,58</note>
+      </notes>
+      <segment>
+        <source>Languages Spoken</source>
+      </segment>
+    </unit>
+    <unit id="companions.filters.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:73,74</note>
+      </notes>
+      <segment>
+        <source>Find the Perfect Match</source>
+      </segment>
+    </unit>
+    <unit id="companions.filters.description">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:75,77</note>
+      </notes>
+      <segment>
+        <source> Use our filters to find companions who speak specific languages, have relevant experience, or offer specialized services. </source>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:81,85</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;filter-icon&quot; width=&quot;20&quot; height=&quot;20&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;" dispEnd="&lt;path d=&quot;M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"></pc></pc> Specialty </source>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:95,99</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;filter-icon&quot; width=&quot;20&quot; height=&quot;20&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M5 8L21 8M5 8C4.16667 10.6667 4.25 13.6667 6.5 16M5 8C5.41667 6 6.25 2.33333 12 2C17.75 2.33333 18.5833 6 19 8M21 8C20.1667 10.6667 20.25 13.6667 18 16M21 8C20.5833 6 19.75 2.33333 14 2C8.25 2.33333 7.41667 6 7 8M9 16L15 22L21 16&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;" dispEnd="&lt;path d=&quot;M5 8L21 8M5 8C4.16667 10.6667 4.25 13.6667 6.5 16M5 8C5.41667 6 6.25 2.33333 12 2C17.75 2.33333 18.5833 6 19 8M21 8C20.1667 10.6667 20.25 13.6667 18 16M21 8C20.5833 6 19.75 2.33333 14 2C8.25 2.33333 7.41667 6 7 8M9 16L15 22L21 16&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"></pc></pc> Language </source>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:109,113</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;filter-icon&quot; width=&quot;20&quot; height=&quot;20&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M12 6V12L16 14M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;" dispEnd="&lt;path d=&quot;M12 6V12L16 14M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;/&gt;"></pc></pc> Availability </source>
+      </segment>
+    </unit>
+    <unit id="companions.featured.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:128,129</note>
+      </notes>
+      <segment>
+        <source>Featured Companions</source>
+      </segment>
+    </unit>
+    <unit id="companions.badge.featured">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:137,139</note>
+      </notes>
+      <segment>
+        <source>Featured</source>
+      </segment>
+    </unit>
+    <unit id="companions.detail.experience">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:144,145</note>
+        <note category="location">src/app/features/companions/companions.component.ts:191,192</note>
+      </notes>
+      <segment>
+        <source>Experience:</source>
+      </segment>
+    </unit>
+    <unit id="companions.detail.languages">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:148,149</note>
+        <note category="location">src/app/features/companions/companions.component.ts:195,196</note>
+      </notes>
+      <segment>
+        <source>Languages:</source>
+      </segment>
+    </unit>
+    <unit id="companions.action.request">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:160,161</note>
+        <note category="location">src/app/features/companions/companions.component.ts:214,215</note>
+      </notes>
+      <segment>
+        <source> Request <ph id="0" equiv="INTERPOLATION" disp="{{ companion.name }}"/> </source>
+      </segment>
+    </unit>
+    <unit id="companions.all.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:173,174</note>
+      </notes>
+      <segment>
+        <source>All Available Companions</source>
+      </segment>
+    </unit>
+    <unit id="companions.why.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:227,228</note>
+      </notes>
+      <segment>
+        <source>Why Choose Our Companions?</source>
+      </segment>
+    </unit>
+    <unit id="companions.why.screening.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:235,236</note>
+      </notes>
+      <segment>
+        <source>Rigorous Screening</source>
+      </segment>
+    </unit>
+    <unit id="companions.why.screening.description">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:237,239</note>
+      </notes>
+      <segment>
+        <source> Every companion undergoes comprehensive background checks, reference verification, and skills assessment to ensure safety and quality. </source>
+      </segment>
+    </unit>
+    <unit id="companions.why.training.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:246,247</note>
+      </notes>
+      <segment>
+        <source>Ongoing Training</source>
+      </segment>
+    </unit>
+    <unit id="companions.why.training.description">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:248,250</note>
+      </notes>
+      <segment>
+        <source> Our companions receive continuous education in elderly care, first aid, CPR, and specialized conditions like dementia. </source>
+      </segment>
+    </unit>
+    <unit id="companions.why.compassion.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:257,258</note>
+      </notes>
+      <segment>
+        <source>Genuine Compassion</source>
+      </segment>
+    </unit>
+    <unit id="companions.why.compassion.description">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:259,261</note>
+      </notes>
+      <segment>
+        <source> We select companions who demonstrate genuine care, patience, and understanding in working with elderly individuals. </source>
+      </segment>
+    </unit>
+    <unit id="companions.cta.title">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:270,271</note>
+      </notes>
+      <segment>
+        <source>Ready to Meet Your Perfect Companion?</source>
+      </segment>
+    </unit>
+    <unit id="companions.cta.description">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:272,274</note>
+      </notes>
+      <segment>
+        <source> Schedule a complimentary consultation to discuss your needs and meet potential companions. We&apos;ll help you find the perfect match for your loved one&apos;s care. </source>
+      </segment>
+    </unit>
+    <unit id="companions.cta.schedule">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:277,279</note>
+      </notes>
+      <segment>
+        <source> Schedule Free Consultation </source>
+      </segment>
+    </unit>
+    <unit id="companions.cta.call">
+      <notes>
+        <note category="location">src/app/features/companions/companions.component.ts:280,281</note>
+      </notes>
+      <segment>
+        <source> Call (514) 555-0123 </source>
+      </segment>
+    </unit>
+    <unit id="contact.hero.title">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:23,24</note>
+      </notes>
+      <segment>
+        <source>Join Our Volunteer Community</source>
+      </segment>
+    </unit>
+    <unit id="contact.hero.description">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:25,27</note>
+      </notes>
+      <segment>
+        <source> Ready to make a difference in your community while earning volunteer hours? Contact us to learn about volunteer opportunities and start your meaningful journey helping elderly community members. </source>
+      </segment>
+    </unit>
+    <unit id="contact.phone.title">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:49,50</note>
+      </notes>
+      <segment>
+        <source>Call Our Volunteer Coordinator</source>
+      </segment>
+    </unit>
+    <unit id="contact.phone.description">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:51,53</note>
+      </notes>
+      <segment>
+        <source> Speak with our volunteer coordinator. Available during business hours. </source>
+      </segment>
+    </unit>
+    <unit id="contact.phone.hours">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:55,56</note>
+      </notes>
+      <segment>
+        <source>Monday - Friday: 8am - 8pm</source>
+      </segment>
+    </unit>
+    <unit id="contact.phone.emergency">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:57,58</note>
+      </notes>
+      <segment>
+        <source> Emergency: (514) 555-0911 </source>
+      </segment>
+    </unit>
+    <unit id="contact.email.title">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:69,70</note>
+      </notes>
+      <segment>
+        <source>Email Our Team</source>
+      </segment>
+    </unit>
+    <unit id="contact.email.description">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:71,73</note>
+      </notes>
+      <segment>
+        <source> Send us questions about volunteer opportunities and we&apos;ll respond within 24 hours. </source>
+      </segment>
+    </unit>
+    <unit id="contact.email.response">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:76,78</note>
+      </notes>
+      <segment>
+        <source>Response within 24 hours</source>
+      </segment>
+    </unit>
+    <unit id="contact.visit.title">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:87,88</note>
+      </notes>
+      <segment>
+        <source>Visit Our Office</source>
+      </segment>
+    </unit>
+    <unit id="contact.visit.description">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:89,91</note>
+      </notes>
+      <segment>
+        <source> Meet our team in person to learn about volunteer opportunities. </source>
+      </segment>
+    </unit>
+    <unit id="contact.address.street">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:94,95</note>
+      </notes>
+      <segment>
+        <source>1234 Saint-Catherine Street West</source>
+      </segment>
+    </unit>
+    <unit id="contact.address.city">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:95,96</note>
+      </notes>
+      <segment>
+        <source>Montreal, QC H3G 1P5</source>
+      </segment>
+    </unit>
+    <unit id="contact.address.country">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:96,98</note>
+      </notes>
+      <segment>
+        <source>Canada</source>
+      </segment>
+    </unit>
+    <unit id="contact.visit.hours">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:98,100</note>
+      </notes>
+      <segment>
+        <source>By appointment only</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.title">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:110,111</note>
+      </notes>
+      <segment>
+        <source>Apply to Volunteer</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.description">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:112,114</note>
+      </notes>
+      <segment>
+        <source> Fill out the form below to get started with your volunteer application. Our volunteer coordinator will contact you within 24 hours to discuss opportunities and next steps. </source>
+      </segment>
+    </unit>
+    <unit id="contact.form.firstName">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:121,122</note>
+      </notes>
+      <segment>
+        <source>First Name *</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.lastName">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:131,132</note>
+      </notes>
+      <segment>
+        <source>Last Name *</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.email">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:141,142</note>
+      </notes>
+      <segment>
+        <source>Email Address *</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.phone">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:151,152</note>
+      </notes>
+      <segment>
+        <source>Phone Number *</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:162,163</note>
+      </notes>
+      <segment>
+        <source>Your Relationship to Care Recipient</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.select">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:167,168</note>
+      </notes>
+      <segment>
+        <source>Please select...</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.child">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:168,169</note>
+      </notes>
+      <segment>
+        <source>Adult Child</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.spouse">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:169,170</note>
+      </notes>
+      <segment>
+        <source>Spouse/Partner</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.family">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:170,171</note>
+      </notes>
+      <segment>
+        <source>Other Family Member</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.friend">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:171,172</note>
+      </notes>
+      <segment>
+        <source>Friend</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.self">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:172,173</note>
+      </notes>
+      <segment>
+        <source>Self</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.relationship.healthcare">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:173,175</note>
+      </notes>
+      <segment>
+        <source>Healthcare Professional</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:178,179</note>
+      </notes>
+      <segment>
+        <source>Services of Interest</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services.companionship">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:182,184</note>
+      </notes>
+      <segment>
+        <source>Daily Companionship</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services.mobility">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:186,188</note>
+      </notes>
+      <segment>
+        <source>Mobility Assistance</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services.technology">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:190,192</note>
+      </notes>
+      <segment>
+        <source>Technology Support</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services.errands">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:194,196</note>
+      </notes>
+      <segment>
+        <source>Errand Assistance</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services.meals">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:198,200</note>
+      </notes>
+      <segment>
+        <source>Meal Preparation</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.services.respite">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:202,204</note>
+      </notes>
+      <segment>
+        <source>Respite Care</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.urgency">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:208,209</note>
+      </notes>
+      <segment>
+        <source>When do you need services to start?</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.urgency.select">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:213,214</note>
+      </notes>
+      <segment>
+        <source>Please select...</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.urgency.immediately">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:214,215</note>
+      </notes>
+      <segment>
+        <source>Immediately</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.urgency.week">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:215,216</note>
+      </notes>
+      <segment>
+        <source>Within a week</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.urgency.month">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:216,217</note>
+      </notes>
+      <segment>
+        <source>Within a month</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.urgency.planning">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:217,219</note>
+      </notes>
+      <segment>
+        <source>Planning ahead</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.message">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:222,223</note>
+      </notes>
+      <segment>
+        <source>Tell us about your specific needs</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.message.placeholder">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:228,229</note>
+      </notes>
+      <segment>
+        <source>Please describe the care recipient&apos;s needs, any special requirements, preferred schedule, or other important details...</source>
+      </segment>
+    </unit>
+    <unit id="contact.form.privacy">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:237,238</note>
+      </notes>
+      <segment>
+        <source> I agree to the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;/privacy&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Privacy Policy</pc> and consent to being contacted by KindCompanion. </source>
+      </segment>
+    </unit>
+    <unit id="contact.form.submit">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:251,252</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ isSubmitting ? &apos;Sending...&apos; : &apos;Request Free Consultation&apos; }}"/></source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.title">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:262,263</note>
+      </notes>
+      <segment>
+        <source>Frequently Asked Questions</source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.cost.question">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:265,266</note>
+      </notes>
+      <segment>
+        <source>How much do your services cost?</source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.cost.answer">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:267,269</note>
+      </notes>
+      <segment>
+        <source> Our rates vary based on the type and duration of services needed. We offer competitive hourly rates and package deals for regular care. Most services are covered by private insurance or government programs. Contact us for a personalized quote. </source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.screening.question">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:273,274</note>
+      </notes>
+      <segment>
+        <source>How do you screen your companions?</source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.screening.answer">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:275,277</note>
+      </notes>
+      <segment>
+        <source> All our companions undergo thorough background checks, reference verification, skills assessment, and ongoing training. They are bonded, insured, and certified in first aid and CPR. </source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.emergency.question">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:280,281</note>
+      </notes>
+      <segment>
+        <source>What happens in case of an emergency?</source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.emergency.answer">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:282,284</note>
+      </notes>
+      <segment>
+        <source> Our companions are trained to handle emergencies and have direct access to our 24/7 support line. We maintain emergency contacts and medical information for all clients and coordinate with healthcare providers when needed. </source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.start.question">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:287,288</note>
+      </notes>
+      <segment>
+        <source>How quickly can services begin?</source>
+      </segment>
+    </unit>
+    <unit id="contact.faq.start.answer">
+      <notes>
+        <note category="location">src/app/features/contact/contact.component.ts:289,291</note>
+      </notes>
+      <segment>
+        <source> In non-emergency situations, we can typically start services within 48-72 hours after the initial consultation. For urgent needs, we offer same-day placement when available. </source>
+      </segment>
+    </unit>
+    <unit id="error.400.title">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:28,29</note>
+      </notes>
+      <segment>
+        <source>Bad Request</source>
+      </segment>
+    </unit>
+    <unit id="error.400.description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:30,32</note>
+      </notes>
+      <segment>
+        <source> There was a problem with your request. The information sent was incomplete, invalid, or couldn&apos;t be processed by our system. </source>
+      </segment>
+    </unit>
+    <unit id="error.help.form-issues">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:43,44</note>
+      </notes>
+      <segment>
+        <source>Form Issues</source>
+      </segment>
+    </unit>
+    <unit id="error.help.form-description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:45,46</note>
+      </notes>
+      <segment>
+        <source> Check that all required fields are completed correctly and try submitting again. </source>
+      </segment>
+    </unit>
+    <unit id="error.help.browser-issues">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:56,57</note>
+      </notes>
+      <segment>
+        <source>Browser Issues</source>
+      </segment>
+    </unit>
+    <unit id="error.help.browser-description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:58,60</note>
+      </notes>
+      <segment>
+        <source> Clear your browser cache, disable ad blockers, or try a different browser. </source>
+      </segment>
+    </unit>
+    <unit id="error.help.connection">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:69,70</note>
+      </notes>
+      <segment>
+        <source>Connection Problems</source>
+      </segment>
+    </unit>
+    <unit id="error.help.connection-description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:71,73</note>
+      </notes>
+      <segment>
+        <source> Check your internet connection and try again. Some features may require a stable connection. </source>
+      </segment>
+    </unit>
+    <unit id="error.solutions.title">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:78,79</note>
+      </notes>
+      <segment>
+        <source>Common Solutions</source>
+      </segment>
+    </unit>
+    <unit id="error.solution.refresh">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:83,84</note>
+      </notes>
+      <segment>
+        <source>Refresh and Try Again</source>
+      </segment>
+    </unit>
+    <unit id="error.solution.refresh-description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:85,87</note>
+      </notes>
+      <segment>
+        <source> Sometimes a simple page refresh can resolve temporary issues. </source>
+      </segment>
+    </unit>
+    <unit id="error.solution.forms">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:93,94</note>
+      </notes>
+      <segment>
+        <source>Check Form Data</source>
+      </segment>
+    </unit>
+    <unit id="error.solution.forms-description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:95,97</note>
+      </notes>
+      <segment>
+        <source> Ensure all required fields are filled out and information is formatted correctly. </source>
+      </segment>
+    </unit>
+    <unit id="error.solution.contact">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:103,104</note>
+      </notes>
+      <segment>
+        <source>Contact Support</source>
+      </segment>
+    </unit>
+    <unit id="error.solution.contact-description">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:105,107</note>
+      </notes>
+      <segment>
+        <source> If the problem persists, our support team is here to help. </source>
+      </segment>
+    </unit>
+    <unit id="error.action.refresh">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:114,119</note>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:68,73</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z&quot;/&gt;" dispEnd="&lt;path d=&quot;M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z&quot;/&gt;"></pc><pc id="2" equivStart="START_TAG__SVG_PATH_1" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z&quot;/&gt;" dispEnd="&lt;path d=&quot;M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z&quot;/&gt;"></pc></pc> Try Again </source>
+      </segment>
+    </unit>
+    <unit id="error.action.back">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:122,126</note>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:61,65</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z&quot;/&gt;" dispEnd="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z&quot;/&gt;"></pc></pc> Go Back </source>
+      </segment>
+    </unit>
+    <unit id="error.action.contact">
+      <notes>
+        <note category="location">src/app/features/error/bad-request/bad-request.component.ts:129,133</note>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:95,99</note>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:83,87</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z&quot;/&gt;" dispEnd="&lt;path d=&quot;M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z&quot;/&gt;"></pc></pc> Get Help </source>
+      </segment>
+    </unit>
+    <unit id="error.403.title">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:28,29</note>
+      </notes>
+      <segment>
+        <source>Access Forbidden</source>
+      </segment>
+    </unit>
+    <unit id="error.403.description">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:30,32</note>
+      </notes>
+      <segment>
+        <source> You don&apos;t have permission to access this resource. This could be due to insufficient privileges or you may need to log in with the appropriate credentials. </source>
+      </segment>
+    </unit>
+    <unit id="error.access.possible-reasons">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:36,38</note>
+      </notes>
+      <segment>
+        <source>Possible reasons:</source>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-login">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:38,39</note>
+      </notes>
+      <segment>
+        <source>You need to log in to access this page</source>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-permissions">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:39,40</note>
+      </notes>
+      <segment>
+        <source>Your account doesn&apos;t have the required permissions</source>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-expired">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:40,41</note>
+      </notes>
+      <segment>
+        <source>Your session may have expired</source>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-restricted">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:41,43</note>
+      </notes>
+      <segment>
+        <source>The resource is restricted to certain user types</source>
+      </segment>
+    </unit>
+    <unit id="error.help.family-members">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:53,54</note>
+      </notes>
+      <segment>
+        <source>Family Members</source>
+      </segment>
+    </unit>
+    <unit id="error.help.family-description">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:55,56</note>
+      </notes>
+      <segment>
+        <source> If you&apos;re a family member looking to access care information, please use the family dashboard login. </source>
+      </segment>
+    </unit>
+    <unit id="error.help.family-login">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:57,59</note>
+      </notes>
+      <segment>
+        <source>Family Login</source>
+      </segment>
+    </unit>
+    <unit id="error.help.staff">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:68,69</note>
+      </notes>
+      <segment>
+        <source>Staff &amp; Administrators</source>
+      </segment>
+    </unit>
+    <unit id="error.help.staff-description">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:70,71</note>
+      </notes>
+      <segment>
+        <source> KindCompanion staff and administrators should use the admin portal with your work credentials. </source>
+      </segment>
+    </unit>
+    <unit id="error.help.admin-login">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:72,74</note>
+      </notes>
+      <segment>
+        <source>Staff Login</source>
+      </segment>
+    </unit>
+    <unit id="error.action.login">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:80,85</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z&quot;/&gt;" dispEnd="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z&quot;/&gt;"></pc><pc id="2" equivStart="START_TAG__SVG_PATH_1" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z&quot;/&gt;" dispEnd="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z&quot;/&gt;"></pc></pc> Sign In </source>
+      </segment>
+    </unit>
+    <unit id="error.action.home">
+      <notes>
+        <note category="location">src/app/features/error/forbidden/forbidden.component.ts:88,92</note>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:68,72</note>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:76,80</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z&quot;/&gt;" dispEnd="&lt;path d=&quot;M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z&quot;/&gt;"></pc></pc> Return Home </source>
+      </segment>
+    </unit>
+    <unit id="error.404.title">
+      <notes>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:27,28</note>
+      </notes>
+      <segment>
+        <source>Page Not Found</source>
+      </segment>
+    </unit>
+    <unit id="error.404.description">
+      <notes>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:29,31</note>
+      </notes>
+      <segment>
+        <source> We can&apos;t seem to find the page you&apos;re looking for. It might have been moved, deleted, or you may have entered the wrong URL. </source>
+      </segment>
+    </unit>
+    <unit id="error.suggestions.title">
+      <notes>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:34,35</note>
+      </notes>
+      <segment>
+        <source>Here are some helpful links instead:</source>
+      </segment>
+    </unit>
+    <unit id="error.link.home">
+      <notes>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:37,41</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z&quot;/&gt;" dispEnd="&lt;path d=&quot;M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z&quot;/&gt;"></pc></pc> Go to Homepage </source>
+      </segment>
+    </unit>
+    <unit id="error.link.services">
+      <notes>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:44,48</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM6.5 5A1.5 1.5 0 0 1 8 3.5a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 6.5 5zM8 7.5a3.5 3.5 0 0 1 3.5 3.5c0 .5-.5 1-1 1h-5c-.5 0-1-.5-1-1A3.5 3.5 0 0 1 8 7.5z&quot;/&gt;" dispEnd="&lt;path d=&quot;M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM6.5 5A1.5 1.5 0 0 1 8 3.5a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 6.5 5zM8 7.5a3.5 3.5 0 0 1 3.5 3.5c0 .5-.5 1-1 1h-5c-.5 0-1-.5-1-1A3.5 3.5 0 0 1 8 7.5z&quot;/&gt;"></pc></pc> Our Services </source>
+      </segment>
+    </unit>
+    <unit id="error.link.contact">
+      <notes>
+        <note category="location">src/app/features/error/not-found/not-found.component.ts:51,55</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z&quot;/&gt;" dispEnd="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z&quot;/&gt;"></pc></pc> Contact Us </source>
+      </segment>
+    </unit>
+    <unit id="error.500.title">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:26,27</note>
+      </notes>
+      <segment>
+        <source>Server Error</source>
+      </segment>
+    </unit>
+    <unit id="error.500.description">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:28,30</note>
+      </notes>
+      <segment>
+        <source> We&apos;re experiencing some technical difficulties on our end. Our team has been notified and is working to resolve the issue as quickly as possible. </source>
+      </segment>
+    </unit>
+    <unit id="error.info.what-happened">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:40,41</note>
+      </notes>
+      <segment>
+        <source>What happened?</source>
+      </segment>
+    </unit>
+    <unit id="error.info.server-issue">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:42,43</note>
+      </notes>
+      <segment>
+        <source> Our server encountered an unexpected error while processing your request. This is usually temporary and resolves itself quickly. </source>
+      </segment>
+    </unit>
+    <unit id="error.info.what-to-do">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:56,58</note>
+      </notes>
+      <segment>
+        <source>What can you do?</source>
+      </segment>
+    </unit>
+    <unit id="error.info.try-refresh">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:58,59</note>
+      </notes>
+      <segment>
+        <source>Try refreshing the page</source>
+      </segment>
+    </unit>
+    <unit id="error.info.wait-moment">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:59,60</note>
+      </notes>
+      <segment>
+        <source>Wait a few minutes and try again</source>
+      </segment>
+    </unit>
+    <unit id="error.info.contact-support">
+      <notes>
+        <note category="location">src/app/features/error/server-error/server-error.component.ts:60,62</note>
+      </notes>
+      <segment>
+        <source>Contact our support team if the problem persists</source>
+      </segment>
+    </unit>
+    <unit id="home.loading.message">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:15</note>
+      </notes>
+      <segment>
+        <source>Welcome to KindCompanion</source>
+      </segment>
+    </unit>
+    <unit id="home.loading.subMessage">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Loading your personalized experience...</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.badge">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:32,33</note>
+      </notes>
+      <segment>
+        <source>Montreal&apos;s Most Trusted</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:34,37</note>
+      </notes>
+      <segment>
+        <source> Compassionate <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;gradient-text&quot;&gt;" dispEnd="&lt;/span&gt;">Companion Services</pc> for Your Loved Ones </source>
+      </segment>
+    </unit>
+    <unit id="home.hero.description">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:39,41</note>
+      </notes>
+      <segment>
+        <source> Experience the warmth of professional companionship designed to enrich lives, foster independence, and bring joy to every day. </source>
+      </segment>
+    </unit>
+    <unit id="home.hero.ctaPrimary">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:44,45</note>
+      </notes>
+      <segment>
+        <source>Start Your Journey</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.ctaSecondary">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:50,52</note>
+      </notes>
+      <segment>
+        <source>Discover Our Services</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat1.number">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:55,56</note>
+      </notes>
+      <segment>
+        <source>500+</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat1.label">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:56,58</note>
+      </notes>
+      <segment>
+        <source>Families Trust Us</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat2.number">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:60,61</note>
+      </notes>
+      <segment>
+        <source>24/7</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat2.label">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:61,63</note>
+      </notes>
+      <segment>
+        <source>Support Available</source>
+      </segment>
+    </unit>
+    <unit id="home.hero.imageText">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:75,77</note>
+      </notes>
+      <segment>
+        <source>Caring Companion Services</source>
+      </segment>
+    </unit>
+    <unit id="home.features.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:90,91</note>
+      </notes>
+      <segment>
+        <source>Why Choose KindCompanion?</source>
+      </segment>
+    </unit>
+    <unit id="home.features.subtitle">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:91,93</note>
+      </notes>
+      <segment>
+        <source>Exceptional care designed around what matters most</source>
+      </segment>
+    </unit>
+    <unit id="home.features.feature1.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:100,101</note>
+      </notes>
+      <segment>
+        <source>Certified Professionals</source>
+      </segment>
+    </unit>
+    <unit id="home.features.feature1.description">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:101,103</note>
+      </notes>
+      <segment>
+        <source>All companions are background-checked, trained, and certified in elderly care best practices.</source>
+      </segment>
+    </unit>
+    <unit id="home.features.feature2.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:110,111</note>
+      </notes>
+      <segment>
+        <source>24/7 Support</source>
+      </segment>
+    </unit>
+    <unit id="home.features.feature2.description">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:111,113</note>
+      </notes>
+      <segment>
+        <source>Round-the-clock availability for emergencies and peace of mind for families.</source>
+      </segment>
+    </unit>
+    <unit id="home.features.feature3.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:119,120</note>
+      </notes>
+      <segment>
+        <source>Personalized Care</source>
+      </segment>
+    </unit>
+    <unit id="home.features.feature3.description">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:120,123</note>
+      </notes>
+      <segment>
+        <source>Customized companion services tailored to individual needs, preferences, and lifestyle.</source>
+      </segment>
+    </unit>
+    <unit id="home.services.badge">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:131,132</note>
+      </notes>
+      <segment>
+        <source>Our Services</source>
+      </segment>
+    </unit>
+    <unit id="home.services.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:132,133</note>
+      </notes>
+      <segment>
+        <source>Comprehensive Support<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>for Independent Living</source>
+      </segment>
+    </unit>
+    <unit id="home.services.description">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:134,136</note>
+      </notes>
+      <segment>
+        <source> From daily companionship to specialized assistance, we provide the support needed to maintain dignity, independence, and joy in everyday life. </source>
+      </segment>
+    </unit>
+    <unit id="home.services.item1">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:140,142</note>
+      </notes>
+      <segment>
+        <source>Daily companionship and conversation</source>
+      </segment>
+    </unit>
+    <unit id="home.services.item2">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:144,146</note>
+      </notes>
+      <segment>
+        <source>Mobility and exercise support</source>
+      </segment>
+    </unit>
+    <unit id="home.services.item3">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:148,150</note>
+      </notes>
+      <segment>
+        <source>Technology assistance and training</source>
+      </segment>
+    </unit>
+    <unit id="home.services.item4">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:152,154</note>
+      </notes>
+      <segment>
+        <source>Errand and appointment support</source>
+      </segment>
+    </unit>
+    <unit id="home.services.cta">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:156,157</note>
+      </notes>
+      <segment>
+        <source>View All Opportunities</source>
+      </segment>
+    </unit>
+    <unit id="home.services.card1">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:166,168</note>
+      </notes>
+      <segment>
+        <source>Companionship</source>
+      </segment>
+    </unit>
+    <unit id="home.services.card2">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:170,172</note>
+      </notes>
+      <segment>
+        <source>Mobility</source>
+      </segment>
+    </unit>
+    <unit id="home.services.card3">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:174,176</note>
+      </notes>
+      <segment>
+        <source>Technology</source>
+      </segment>
+    </unit>
+    <unit id="home.cta.title">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:193,194</note>
+      </notes>
+      <segment>
+        <source>Ready to Transform<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Your Loved One&apos;s Life?</source>
+      </segment>
+    </unit>
+    <unit id="home.cta.description">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:195,197</note>
+      </notes>
+      <segment>
+        <source> Start with a complimentary consultation to discover how our companions can bring joy, safety, and independence to daily life. </source>
+      </segment>
+    </unit>
+    <unit id="home.cta.primary">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:200,201</note>
+      </notes>
+      <segment>
+        <source>Schedule Free Consultation</source>
+      </segment>
+    </unit>
+    <unit id="home.cta.phone">
+      <notes>
+        <note category="location">src/app/features/home/home.component.ts:209,211</note>
+      </notes>
+      <segment>
+        <source>Call (514) 555-0123</source>
+      </segment>
+    </unit>
+    <unit id="accessibility.skip.nav">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:13,16</note>
+      </notes>
+      <segment>
+        <source>Skip to main content</source>
+      </segment>
+    </unit>
+    <unit id="brand.tagline">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:31,33</note>
+      </notes>
+      <segment>
+        <source>Montreal</source>
+      </segment>
+    </unit>
+    <unit id="nav.home">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:52</note>
+      </notes>
+      <segment>
+        <source>Home</source>
+      </segment>
+    </unit>
+    <unit id="nav.about">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:54,55</note>
+      </notes>
+      <segment>
+        <source>About Us</source>
+      </segment>
+    </unit>
+    <unit id="nav.services">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:57,58</note>
+      </notes>
+      <segment>
+        <source>Services</source>
+      </segment>
+    </unit>
+    <unit id="nav.companions">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:60,61</note>
+      </notes>
+      <segment>
+        <source>Our Companions</source>
+      </segment>
+    </unit>
+    <unit id="nav.contact">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:63,65</note>
+      </notes>
+      <segment>
+        <source>Contact</source>
+      </segment>
+    </unit>
+    <unit id="action.book.consultation">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:69,74</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z&quot;/&gt;" dispEnd="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;"></pc><pc id="2" equivStart="START_TAG__SVG_PATH_1" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;" dispEnd="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;"></pc></pc><pc id="3" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;">Book Free Consultation</pc></source>
+      </segment>
+    </unit>
+    <unit id="footer.tagline">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:124,126</note>
+      </notes>
+      <segment>
+        <source>Compassionate Care • Montreal</source>
+      </segment>
+    </unit>
+    <unit id="footer.description">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:130,132</note>
+      </notes>
+      <segment>
+        <source> Professional companion services designed to enrich the lives of elderly individuals while providing peace of mind to their families. We believe in dignity, independence, and the power of human connection. </source>
+      </segment>
+    </unit>
+    <unit id="badge.certified">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:139,140</note>
+      </notes>
+      <segment>
+        <source>Certified &amp; Insured</source>
+      </segment>
+    </unit>
+    <unit id="badge.support">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:145,146</note>
+      </notes>
+      <segment>
+        <source>24/7 Support</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.title">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:154,155</note>
+      </notes>
+      <segment>
+        <source>Our Services</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.companionship">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:156,157</note>
+      </notes>
+      <segment>
+        <source>Daily Companionship</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.mobility">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:157,158</note>
+      </notes>
+      <segment>
+        <source>Mobility Assistance</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.technology">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:158,159</note>
+      </notes>
+      <segment>
+        <source>Technology Support</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.errands">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:159,160</note>
+      </notes>
+      <segment>
+        <source>Errand Assistance</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.meals">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:160,161</note>
+      </notes>
+      <segment>
+        <source>Meal Preparation</source>
+      </segment>
+    </unit>
+    <unit id="footer.services.respite">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:161,163</note>
+      </notes>
+      <segment>
+        <source>Respite Care</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.title">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:166,167</note>
+      </notes>
+      <segment>
+        <source>Support &amp; Resources</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.faq">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:168,169</note>
+      </notes>
+      <segment>
+        <source>Frequently Asked Questions</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.safety">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:169,170</note>
+      </notes>
+      <segment>
+        <source>Safety &amp; Security</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.resources">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:170,171</note>
+      </notes>
+      <segment>
+        <source>Family Resources</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.testimonials">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:171,172</note>
+      </notes>
+      <segment>
+        <source>Client Testimonials</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.insurance">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:172,173</note>
+      </notes>
+      <segment>
+        <source>Insurance &amp; Billing</source>
+      </segment>
+    </unit>
+    <unit id="footer.support.emergency">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:173,175</note>
+      </notes>
+      <segment>
+        <source>Emergency Procedures</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.title">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:178,179</note>
+      </notes>
+      <segment>
+        <source>Company</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.about">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:180,181</note>
+      </notes>
+      <segment>
+        <source>About KindCompanion</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.careers">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:181,182</note>
+      </notes>
+      <segment>
+        <source>Join Our Team</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.news">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:182,183</note>
+      </notes>
+      <segment>
+        <source>News &amp; Updates</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.community">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:183,184</note>
+      </notes>
+      <segment>
+        <source>Community Involvement</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.partners">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:184,185</note>
+      </notes>
+      <segment>
+        <source>Healthcare Partners</source>
+      </segment>
+    </unit>
+    <unit id="footer.company.locations">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:185,187</note>
+      </notes>
+      <segment>
+        <source>Service Areas</source>
+      </segment>
+    </unit>
+    <unit id="footer.contact.title">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:190,191</note>
+      </notes>
+      <segment>
+        <source>Get In Touch</source>
+      </segment>
+    </unit>
+    <unit id="footer.contact.phone.label">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:197,198</note>
+      </notes>
+      <segment>
+        <source>Phone</source>
+      </segment>
+    </unit>
+    <unit id="footer.contact.email.label">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:207,208</note>
+      </notes>
+      <segment>
+        <source>Email</source>
+      </segment>
+    </unit>
+    <unit id="footer.contact.address.label">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:217,218</note>
+      </notes>
+      <segment>
+        <source>Service Area</source>
+      </segment>
+    </unit>
+    <unit id="footer.contact.address.value">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:218,220</note>
+      </notes>
+      <segment>
+        <source>Greater Montreal Area</source>
+      </segment>
+    </unit>
+    <unit id="footer.emergency.notice">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:225,227</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">24/7 Emergency Line:</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><pc id="2" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;tel:+1-514-555-0911&quot;&gt;" dispEnd="&lt;/a&gt;">(514) 555-0911</pc></source>
+      </segment>
+    </unit>
+    <unit id="footer.rights">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:236,237</note>
+      </notes>
+      <segment>
+        <source>All rights reserved.</source>
+      </segment>
+    </unit>
+    <unit id="footer.legal.privacy">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:239,240</note>
+      </notes>
+      <segment>
+        <source>Privacy Policy</source>
+      </segment>
+    </unit>
+    <unit id="footer.legal.terms">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:241,242</note>
+      </notes>
+      <segment>
+        <source>Terms of Service</source>
+      </segment>
+    </unit>
+    <unit id="footer.legal.accessibility">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:243,244</note>
+      </notes>
+      <segment>
+        <source>Accessibility</source>
+      </segment>
+    </unit>
+    <unit id="footer.legal.cookies">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:245,247</note>
+      </notes>
+      <segment>
+        <source>Cookie Policy</source>
+      </segment>
+    </unit>
+    <unit id="footer.social.follow">
+      <notes>
+        <note category="location">src/app/layouts/public/public-layout.component.ts:250,251</note>
+      </notes>
+      <segment>
+        <source>Follow Us:</source>
+      </segment>
+    </unit>
+    <unit id="language.switch.english">
+      <notes>
+        <note category="location">src/app/shared/components/language-toggle/language-toggle.component.ts:16,17</note>
+      </notes>
+      <segment>
+        <source>Switch to English</source>
+      </segment>
+    </unit>
+    <unit id="language.switch.french">
+      <notes>
+        <note category="location">src/app/shared/components/language-toggle/language-toggle.component.ts:27,28</note>
+      </notes>
+      <segment>
+        <source>Changer en français</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

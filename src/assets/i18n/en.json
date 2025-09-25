@@ -1,0 +1,163 @@
+{
+  "accessibility": {
+    "skip": {
+      "nav": "Skip to main content"
+    }
+  },
+  "brand": {
+    "tagline": "Montreal"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Opportunities",
+    "companions": "Our Volunteers",
+    "contact": "Contact",
+    "bookConsultation": "Apply to Volunteer",
+    "getInTouch": "Get in Touch"
+  },
+  "home": {
+    "loading": {
+      "message": "Welcome to KindCompanion",
+      "subMessage": "Loading your personalized experience..."
+    },
+    "hero": {
+      "badge": "Community Volunteer Network",
+      "title": "Meaningful <span class=\"gradient-text\">Volunteer Opportunities</span> Helping Elderly in Montreal",
+      "description": "Connect with elderly community members while earning volunteer hours for your studies, community service requirements, or personal growth.",
+      "ctaPrimary": "Join as Volunteer",
+      "ctaSecondary": "Learn About Opportunities",
+      "stat1": {
+        "number": "200+",
+        "label": "Active Volunteers"
+      },
+      "stat2": {
+        "number": "15,000+",
+        "label": "Hours Completed"
+      },
+      "imageText": "Community Volunteer Program"
+    },
+    "features": {
+      "title": "Why Volunteer With Us?",
+      "subtitle": "Perfect for students, community service requirements, and meaningful impact",
+      "feature1": {
+        "title": "Student-Friendly",
+        "description": "Perfect for students needing volunteer hours for applications, scholarships, or academic requirements."
+      },
+      "feature2": {
+        "title": "Community Service Hours",
+        "description": "Approved hours for court requirements, school programs, and PEI mandatory community service."
+      },
+      "feature3": {
+        "title": "Flexible Scheduling",
+        "description": "Choose your hours and commitments to fit around your studies, work, or other responsibilities."
+      }
+    },
+    "services": {
+      "badge": "Volunteer Opportunities",
+      "title": "Volunteer Opportunities<br>That Make a Difference",
+      "description": "From friendly visits to helping with technology, our volunteers provide meaningful companionship while gaining valuable life experience and community hours.",
+      "item1": "Weekly friendly visits and conversations",
+      "item2": "Technology support and digital literacy",
+      "item3": "Light assistance with daily activities",
+      "item4": "Companionship for walks and outings",
+      "cta": "View All Opportunities",
+      "card1": "Companionship",
+      "card2": "Learning",
+      "card3": "Community Service"
+    },
+    "cta": {
+      "title": "Ready to Make a<br>Meaningful Impact?",
+      "description": "Join our volunteer program today and start earning community service hours while building meaningful connections with elderly community members.",
+      "primary": "Apply to Volunteer",
+      "phone": "Call (514) 555-0123"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Join Our Volunteer Community",
+      "description": "Ready to make a difference in your community while earning volunteer hours? Contact us to learn about volunteer opportunities and start your meaningful journey helping elderly community members."
+    },
+    "phone": {
+      "title": "Call Our Volunteer Coordinator",
+      "description": "Speak with our volunteer coordinator. Available during business hours.",
+      "hours": "Monday - Friday: 8am - 8pm",
+      "emergency": "Emergency: (514) 555-0911"
+    },
+    "email": {
+      "title": "Email Our Team",
+      "description": "Send us questions about volunteer opportunities and we'll respond within 24 hours.",
+      "response": "Response within 24 hours"
+    },
+    "visit": {
+      "title": "Visit Our Office",
+      "description": "Meet our team in person to learn about volunteer opportunities.",
+      "hours": "By appointment only"
+    },
+    "address": {
+      "street": "1234 Saint-Catherine Street West",
+      "city": "Montreal, QC H3G 1P5",
+      "country": "Canada"
+    },
+    "form": {
+      "title": "Apply to Volunteer",
+      "description": "Fill out the form below to get started with your volunteer application. Our volunteer coordinator will contact you within 24 hours to discuss opportunities and next steps.",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number *",
+      "relationship": "Your Interest in Volunteering",
+      "services": "Volunteer Areas of Interest",
+      "urgency": "When would you like to start?",
+      "message": "Tell us about your availability and interests",
+      "messagePlaceholder": "Share your availability, any special skills, volunteer hour requirements, and what interests you most about helping elderly community members...",
+      "privacy": "I agree to the Privacy Policy and consent to being contacted by KindCompanion.",
+      "submit": "Submit Application"
+    }
+  },
+  "language": {
+    "switch": {
+      "english": "Switch to English",
+      "french": "Changer en français"
+    }
+  },
+  "footer": {
+    "tagline": "Community Volunteer Program • Montreal",
+    "description": "Volunteer opportunities designed to connect caring individuals with elderly community members while providing verified community service hours.",
+    "services": {
+      "title": "Volunteer Opportunities",
+      "companionship": "Weekly Companionship",
+      "mobility": "Mobility Support",
+      "technology": "Technology Assistance",
+      "errands": "Errand Support",
+      "meals": "Meal Preparation",
+      "respite": "Respite Care"
+    },
+    "support": {
+      "title": "Support & Resources",
+      "faq": "Frequently Asked Questions",
+      "safety": "Safety & Training",
+      "resources": "Volunteer Resources",
+      "testimonials": "Volunteer Stories",
+      "hours": "Hour Verification",
+      "procedures": "Emergency Procedures"
+    },
+    "company": {
+      "title": "Program",
+      "about": "About Our Program",
+      "joinTeam": "Become a Volunteer",
+      "news": "News & Updates",
+      "community": "Community Partnerships",
+      "partners": "Academic Partners",
+      "areas": "Service Areas"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "addressLabel": "Service Area",
+      "addressValue": "Greater Montreal Area",
+      "emergencyLine": "24/7 Support Line:"
+    }
+  }
+}

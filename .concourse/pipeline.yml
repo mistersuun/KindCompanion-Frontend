@@ -1,0 +1,296 @@
+---
+resource_types:
+  - name: sonar-runner
+    type: docker-image
+    source:
+      repository: cathive/concourse-sonarqube-resource
+      tag: latest
+
+resources:
+  - name: kindcompanion-frontend-repo
+    type: git
+    source:
+      uri: https://github.com/mistersuun/KindCompanion-Frontend.git
+      branch: develop
+      private_key: ((git-private-key))
+
+  - name: sonarcloud-analysis
+    type: sonar-runner
+    source:
+      host_url: https://sonarcloud.io
+      login: ((sonarcloud-token))
+      organization: mistersuun
+
+  - name: docker-registry
+    type: registry-image
+    source:
+      repository: ghcr.io/mistersuun/kindcompanion-frontend
+      tag: latest
+      username: ((github-username))
+      password: ((github-token))
+
+  - name: qa-deployment
+    type: registry-image
+    source:
+      repository: ghcr.io/mistersuun/kindcompanion-frontend
+      tag: qa
+      username: ((github-username))
+      password: ((github-token))
+
+  - name: production-deployment
+    type: registry-image
+    source:
+      repository: ghcr.io/mistersuun/kindcompanion-frontend
+      tag: production
+      username: ((github-username))
+      password: ((github-token))
+
+jobs:
+  - name: test-and-build
+    plan:
+      - get: kindcompanion-frontend-repo
+        trigger: true
+      - task: install-dependencies
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm ci --prefer-offline --no-audit
+
+      - task: lint-and-format
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm run lint
+                npm run format:check
+
+      - task: run-unit-tests
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          outputs:
+            - name: test-results
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm run test:ci
+                cp -r coverage ../test-results/
+
+      - task: accessibility-tests
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm run test:a11y
+
+      - put: sonarcloud-analysis
+        params:
+          project_path: kindcompanion-frontend-repo
+          project_key: mistersuun_KindCompanion-Frontend
+          sources: src
+          tests: src
+          coverage_report: test-results/coverage/lcov.info
+          quality_gate: true
+          coverage_threshold: 80
+
+      - task: build-application
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          outputs:
+            - name: build-output
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm run build:prod
+                cp -r dist ../build-output/
+
+  - name: docker-build
+    plan:
+      - get: kindcompanion-frontend-repo
+        trigger: true
+        passed: [test-and-build]
+      - task: build-docker-image
+        privileged: true
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: docker
+              tag: dind
+          inputs:
+            - name: kindcompanion-frontend-repo
+          outputs:
+            - name: docker-image
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                docker build -t kindcompanion-frontend:latest .
+                docker save kindcompanion-frontend:latest > ../docker-image/image.tar
+      - put: docker-registry
+        params:
+          image: docker-image/image.tar
+
+  - name: security-scan
+    plan:
+      - get: kindcompanion-frontend-repo
+        trigger: true
+        passed: [docker-build]
+      - task: npm-audit
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm audit --audit-level moderate
+
+  - name: deploy-to-qa
+    plan:
+      - get: kindcompanion-frontend-repo
+        trigger: true
+        passed: [docker-build, security-scan]
+      - get: docker-registry
+        passed: [docker-build]
+      - put: qa-deployment
+        params:
+          image: docker-registry/image
+          additional_tags: kindcompanion-frontend-repo/.git/ref
+      - task: deploy-qa-container
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: docker
+              tag: latest
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                echo "🚀 Deploying to QA environment..."
+                echo "📦 Docker image: kindcompanion/frontend:qa"
+                echo "🌐 QA URL will be available at your server"
+                # Add your deployment commands here:
+                # docker run -d --name kindcompanion-qa -p 8081:80 kindcompanion/frontend:qa
+
+  - name: e2e-tests-qa
+    plan:
+      - get: kindcompanion-frontend-repo
+        trigger: true
+        passed: [deploy-to-qa]
+      - task: run-e2e-tests
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: cypress/included
+              tag: latest
+          inputs:
+            - name: kindcompanion-frontend-repo
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm ci --prefer-offline --no-audit
+                npm run e2e:qa
+
+  - name: deploy-to-production
+    plan:
+      - get: kindcompanion-frontend-repo
+        trigger: false
+        passed: [e2e-tests-qa]
+      - task: build-for-production
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: node
+              tag: 18-alpine
+          inputs:
+            - name: kindcompanion-frontend-repo
+          outputs:
+            - name: prod-build
+          run:
+            path: sh
+            args:
+              - -exc
+              - |
+                cd kindcompanion-frontend-repo
+                npm ci --prefer-offline --no-audit --production
+                npm run build:prod
+                cp -r dist ../prod-build/
+      - put: production-environment
+        params:
+          manifest: kindcompanion-frontend-repo/manifest-prod.yml
+          path: prod-build

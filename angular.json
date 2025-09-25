@@ -2,7 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "schematicCollections": [
+      "@cypress/schematic",
+      "@schematics/angular"
+    ],
+    "analytics": false
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -16,6 +21,15 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-CA",
+        "locales": {
+          "fr-CA": {
+            "translation": "src/locale/messages.fr.xlf",
+            "baseHref": "/fr-CA/"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -31,11 +45,17 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],
+            "localize": true
           },
           "configurations": {
             "production": {
@@ -69,6 +89,9 @@
             },
             "development": {
               "buildTarget": "kindcompanion-app:build:development"
+            },
+            "fr": {
+              "buildTarget": "kindcompanion-app:build-fr:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,12 +117,19 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "localize": ["fr"],
+            "localize": [
+              "fr"
+            ],
             "i18nMissingTranslation": "warning"
           },
           "configurations": {
@@ -139,11 +169,61 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
               "src/styles.scss"
             ]
+          }
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "kindcompanion-app:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "kindcompanion-app:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
+        },
+        "ct": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "kindcompanion-app:serve",
+            "watch": true,
+            "headless": false,
+            "testingType": "component"
+          },
+          "configurations": {
+            "development": {
+              "devServerTarget": "kindcompanion-app:serve:development"
+            }
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "kindcompanion-app:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "kindcompanion-app:serve:production"
+            }
           }
         }
       }

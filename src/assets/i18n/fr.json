@@ -1,0 +1,163 @@
+{
+  "accessibility": {
+    "skip": {
+      "nav": "Aller au contenu principal"
+    }
+  },
+  "brand": {
+    "tagline": "Montréal"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Opportunités",
+    "companions": "Nos Bénévoles",
+    "contact": "Contact",
+    "bookConsultation": "Postuler comme Bénévole",
+    "getInTouch": "Nous Contacter"
+  },
+  "home": {
+    "loading": {
+      "message": "Bienvenue à KindCompanion",
+      "subMessage": "Chargement de votre expérience personnalisée..."
+    },
+    "hero": {
+      "badge": "Réseau de Bénévoles Communautaire",
+      "title": "<span class=\"gradient-text\">Opportunités de Bénévolat</span> Significatives Aidant les Aînés à Montréal",
+      "description": "Connectez-vous avec les membres âgés de la communauté tout en gagnant des heures de bénévolat pour vos études, exigences de service communautaire, ou croissance personnelle.",
+      "ctaPrimary": "Rejoindre comme Bénévole",
+      "ctaSecondary": "En Savoir Plus sur les Opportunités",
+      "stat1": {
+        "number": "200+",
+        "label": "Bénévoles Actifs"
+      },
+      "stat2": {
+        "number": "15,000+",
+        "label": "Heures Complétées"
+      },
+      "imageText": "Programme de Bénévolat Communautaire"
+    },
+    "features": {
+      "title": "Pourquoi Faire du Bénévolat avec Nous?",
+      "subtitle": "Parfait pour les étudiants, exigences de service communautaire, et impact significatif",
+      "feature1": {
+        "title": "Convivial pour Étudiants",
+        "description": "Parfait pour les étudiants ayant besoin d'heures de bénévolat pour des demandes, bourses d'études, ou exigences académiques."
+      },
+      "feature2": {
+        "title": "Heures de Service Communautaire",
+        "description": "Heures approuvées pour les exigences judiciaires, programmes scolaires, et service communautaire obligatoire de l'ÎPÉ."
+      },
+      "feature3": {
+        "title": "Horaire Flexible",
+        "description": "Choisissez vos heures et engagements pour s'adapter à vos études, travail, ou autres responsabilités."
+      }
+    },
+    "services": {
+      "badge": "Opportunités de Bénévolat",
+      "title": "Opportunités de Bénévolat<br>Qui Font une Différence",
+      "description": "Des visites amicales à l'aide avec la technologie, nos bénévoles offrent une compagnie significative tout en gagnant une expérience de vie précieuse et des heures communautaires.",
+      "item1": "Visites amicales et conversations hebdomadaires",
+      "item2": "Support technologique et littératie numérique",
+      "item3": "Aide légère avec les activités quotidiennes",
+      "item4": "Compagnie pour promenades et sorties",
+      "cta": "Voir Toutes les Opportunités",
+      "card1": "Compagnie",
+      "card2": "Apprentissage",
+      "card3": "Service Communautaire"
+    },
+    "cta": {
+      "title": "Prêt à Faire un<br>Impact Significatif?",
+      "description": "Rejoignez notre programme de bénévolat aujourd'hui et commencez à gagner des heures de service communautaire tout en développant des connexions significatives avec les membres âgés de la communauté.",
+      "primary": "Postuler pour Être Bénévole",
+      "phone": "Appelez (514) 555-0123"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Rejoignez Notre Communauté de Bénévoles",
+      "description": "Prêt à faire une différence dans votre communauté tout en gagnant des heures de bénévolat? Contactez-nous pour en savoir plus sur les opportunités de bénévolat et commencer votre parcours significatif d'aide aux membres âgés de la communauté."
+    },
+    "phone": {
+      "title": "Appelez Notre Coordinateur de Bénévoles",
+      "description": "Parlez avec notre coordinateur de bénévoles. Disponible pendant les heures d'ouverture.",
+      "hours": "Lundi - Vendredi: 8h - 20h",
+      "emergency": "Urgence: (514) 555-0911"
+    },
+    "email": {
+      "title": "Écrivez à Notre Équipe",
+      "description": "Envoyez-nous des questions sur les opportunités de bénévolat et nous répondrons dans les 24 heures.",
+      "response": "Réponse dans les 24 heures"
+    },
+    "visit": {
+      "title": "Visitez Notre Bureau",
+      "description": "Rencontrez notre équipe en personne pour en savoir plus sur les opportunités de bénévolat.",
+      "hours": "Sur rendez-vous seulement"
+    },
+    "address": {
+      "street": "1234 Rue Sainte-Catherine Ouest",
+      "city": "Montréal, QC H3G 1P5",
+      "country": "Canada"
+    },
+    "form": {
+      "title": "Postuler pour Être Bénévole",
+      "description": "Remplissez le formulaire ci-dessous pour commencer votre candidature de bénévolat. Notre coordinateur de bénévoles vous contactera dans les 24 heures pour discuter des opportunités et des prochaines étapes.",
+      "firstName": "Prénom *",
+      "lastName": "Nom *",
+      "email": "Adresse Courriel *",
+      "phone": "Numéro de Téléphone *",
+      "relationship": "Votre Intérêt pour le Bénévolat",
+      "services": "Domaines d'Intérêt pour le Bénévolat",
+      "urgency": "Quand aimeriez-vous commencer?",
+      "message": "Parlez-nous de votre disponibilité et intérêts",
+      "messagePlaceholder": "Partagez votre disponibilité, compétences spéciales, exigences d'heures de bénévolat, et ce qui vous intéresse le plus dans l'aide aux membres âgés de la communauté...",
+      "privacy": "J'accepte la Politique de Confidentialité et consens à être contacté par KindCompanion.",
+      "submit": "Soumettre la Candidature"
+    }
+  },
+  "language": {
+    "switch": {
+      "english": "Switch to English",
+      "french": "Changer en français"
+    }
+  },
+  "footer": {
+    "tagline": "Programme de Bénévolat Communautaire • Montréal",
+    "description": "Opportunités de bénévolat conçues pour connecter des personnes attentionnées avec des membres âgés de la communauté tout en fournissant des heures de service communautaire vérifiées.",
+    "services": {
+      "title": "Opportunités de Bénévolat",
+      "companionship": "Compagnie Hebdomadaire",
+      "mobility": "Support de Mobilité",
+      "technology": "Assistance Technologique",
+      "errands": "Support de Courses",
+      "meals": "Préparation de Repas",
+      "respite": "Soins de Répit"
+    },
+    "support": {
+      "title": "Support et Ressources",
+      "faq": "Questions Fréquentes",
+      "safety": "Sécurité et Formation",
+      "resources": "Ressources pour Bénévoles",
+      "testimonials": "Témoignages de Bénévoles",
+      "hours": "Vérification d'Heures",
+      "procedures": "Procédures d'Urgence"
+    },
+    "company": {
+      "title": "Programme",
+      "about": "À Propos de Notre Programme",
+      "joinTeam": "Devenir Bénévole",
+      "news": "Nouvelles et Mises à Jour",
+      "community": "Partenariats Communautaires",
+      "partners": "Partenaires Académiques",
+      "areas": "Zones de Service"
+    },
+    "contact": {
+      "title": "Nous Contacter",
+      "phoneLabel": "Téléphone",
+      "emailLabel": "Courriel",
+      "addressLabel": "Zone de Service",
+      "addressValue": "Grand Montréal",
+      "emergencyLine": "Ligne de Support 24/7:"
+    }
+  }
+}

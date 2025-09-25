@@ -1,4 +1,7 @@
 
+/* Import shared responsive design system */
+@use 'app/shared/responsive';
+
 // Include theming for Angular Material with `mat.theme()`.
 // This Sass mixin will define CSS variables that are used for styling Angular Material
 // components according to the Material 3 design spec.
@@ -6,121 +9,414 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 
-// Define custom elderly-friendly color palette
-$kindcompanion-primary: mat.m2-define-palette(mat.$m2-blue-palette, 600, 300, 800);
-$kindcompanion-accent: mat.m2-define-palette(mat.$m2-green-palette, 500, 200, 700);
-$kindcompanion-warn: mat.m2-define-palette(mat.$m2-red-palette, 500, 300, 700);
+// Healthcare-Inspired Design System Variables
+:root {
+  // Sophisticated Pastel Palette from Coolors.co
+  --color-primary: #cdb4db;        // Thistle - soft purple for trust and care
+  --color-primary-dark: #b19cd9;   // Deeper thistle
+  --color-primary-light: #e1d4ed;  // Light thistle
+  --color-secondary: #34C759;      // Keep the green for positive elements
+  --color-accent: #ffafcc;         // Carnation pink - warm and caring
+  --color-accent-light: #ffc8dd;   // Fairy tale pink - lighter accent
+  --color-accent-dark: #ff8fab;    // Deeper carnation pink
+  --color-info: #a2d2ff;          // Light sky blue - calming information
+  --color-info-light: #bde0fe;    // Uranian blue - softer info color
+  --color-warning: #E07A5F;        // Warm coral instead of harsh red
 
-// Create high-contrast theme for elderly accessibility
-$kindcompanion-theme: mat.m2-define-light-theme((
-  color: (
-    primary: $kindcompanion-primary,
-    accent: $kindcompanion-accent,
-    warn: $kindcompanion-warn,
-  ),
-  typography: mat.m2-define-typography-config(
-    $font-family: '"Roboto", "Helvetica Neue", Arial, sans-serif',
-    $headline-1: mat.m2-define-typography-level(32px, 48px, 300),
-    $headline-2: mat.m2-define-typography-level(28px, 42px, 300),
-    $headline-3: mat.m2-define-typography-level(24px, 36px, 400),
-    $headline-4: mat.m2-define-typography-level(22px, 32px, 400),
-    $headline-5: mat.m2-define-typography-level(20px, 30px, 400),
-    $headline-6: mat.m2-define-typography-level(18px, 28px, 500),
-    $subtitle-1: mat.m2-define-typography-level(18px, 28px, 400),
-    $body-1: mat.m2-define-typography-level(16px, 24px, 400),
-    $body-2: mat.m2-define-typography-level(15px, 22px, 400),
-    $caption: mat.m2-define-typography-level(13px, 20px, 400),
-    $button: mat.m2-define-typography-level(16px, 24px, 500),
-    $overline: mat.m2-define-typography-level(12px, 18px, 400)
-  ),
-  density: -2,
-));
+  // Soft Pastel Neutral Palette
+  --color-beige-50: #fefcff;       // Softest lavender white
+  --color-beige-100: #f9f6fc;      // Very light lavender
+  --color-beige-200: #f4f0f7;      // Light lavender cream
+  --color-beige-300: #efe8f3;      // Soft lavender beige
+  --color-beige-400: #e5d6ec;      // Medium lavender beige
+  --color-beige-500: #cdb4db;      // Primary thistle
 
-@include mat.all-component-themes($kindcompanion-theme);
+  // Soft Grays (warmer tones)
+  --color-gray-50: #FAF9F7;        // Warm white
+  --color-gray-100: #F4F2EE;       // Very light warm gray
+  --color-gray-200: #E8E4DD;       // Light warm gray
+  --color-gray-300: #D1C7B8;       // Medium warm gray
+  --color-gray-400: #A89B88;       // Soft taupe
+  --color-gray-500: #847A6B;       // Medium taupe
+  --color-gray-600: #6B6157;       // Dark taupe
+  --color-gray-700: #524B43;       // Darker taupe
+  --color-gray-800: #3D3830;       // Deep warm brown
+  --color-gray-900: #2A251F;       // Rich warm brown
 
-// Global accessibility styles
+  // Semantic Colors (healthcare-friendly)
+  --color-background: var(--color-beige-50);      // Softest lavender white background
+  --color-background-secondary: var(--color-beige-100);  // Light lavender background
+  --color-surface: #FFFFFF;              // Pure white for cards
+  --color-text-primary: var(--color-gray-800);    // Warm dark text
+  --color-text-secondary: var(--color-gray-600);  // Medium warm text
+  --color-text-tertiary: var(--color-gray-500);   // Light warm text
+
+  // Typography Scale (Apple-inspired)
+  --font-family-primary: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-family-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+
+  // Font Sizes
+  --font-size-xs: 0.75rem;    // 12px
+  --font-size-sm: 0.875rem;   // 14px
+  --font-size-base: 1rem;     // 16px
+  --font-size-lg: 1.125rem;   // 18px
+  --font-size-xl: 1.25rem;    // 20px
+  --font-size-2xl: 1.5rem;    // 24px
+  --font-size-3xl: 2rem;      // 32px
+  --font-size-4xl: 2.5rem;    // 40px
+  --font-size-5xl: 3rem;      // 48px
+  --font-size-6xl: 3.5rem;    // 56px
+  --font-size-7xl: 4rem;      // 64px
+
+  // Font Weights
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  // Spacing Scale
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;   // 4px
+  --spacing-2: 0.5rem;    // 8px
+  --spacing-3: 0.75rem;   // 12px
+  --spacing-4: 1rem;      // 16px
+  --spacing-5: 1.25rem;   // 20px
+  --spacing-6: 1.5rem;    // 24px
+  --spacing-8: 2rem;      // 32px
+  --spacing-10: 2.5rem;   // 40px
+  --spacing-12: 3rem;     // 48px
+  --spacing-16: 4rem;     // 64px
+  --spacing-20: 5rem;     // 80px
+  --spacing-24: 6rem;     // 96px
+  --spacing-32: 8rem;     // 128px
+
+  // Border Radius
+  --radius-xs: 0.125rem;   // 2px
+  --radius-sm: 0.25rem;    // 4px
+  --radius-md: 0.5rem;     // 8px
+  --radius-lg: 0.75rem;    // 12px
+  --radius-xl: 1rem;       // 16px
+  --radius-2xl: 1.5rem;    // 24px
+  --radius-full: 9999px;
+
+  // Shadows (Apple-style)
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+  // Healthcare-Inspired Gradients
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--color-secondary) 0%, #28A745 100%);
+  --gradient-hero: linear-gradient(135deg, var(--color-beige-100) 0%, var(--color-accent-light) 100%);
+  --gradient-warm: linear-gradient(135deg, var(--color-beige-200) 0%, var(--color-beige-300) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+  --gradient-info: linear-gradient(135deg, var(--color-info-light) 0%, var(--color-info) 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(254, 252, 255, 0.8) 0%, rgba(254, 252, 255, 0.4) 100%);
+
+  // Transitions
+  --transition-fast: 0.15s ease-out;
+  --transition-normal: 0.25s ease-out;
+  --transition-slow: 0.4s ease-out;
+  --transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  // Z-index Scale
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
+
+// Modern Global Styles
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
-  font-size: 16px; // Base font size for rem calculations
+  font-size: 16px;
   scroll-behavior: smooth;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
   line-height: 1.6;
-  color: #333;
-  background-color: #fafafa;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  overflow-x: hidden;
 }
 
-// High contrast mode support
-@media (prefers-contrast: high) {
-  body {
-    background-color: #ffffff;
-    color: #000000;
-  }
-}
-
-// Large text mode for accessibility
+// Enhanced accessibility
 @media (prefers-reduced-motion: reduce) {
-  * {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
 // Focus styles for keyboard navigation
 *:focus {
-  outline: 3px solid #005fcc;
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
 // Skip navigation link
 .skip-nav {
   position: absolute;
-  top: -40px;
-  left: 6px;
-  background: #000;
-  color: #fff;
-  padding: 8px;
+  top: -100px;
+  left: var(--spacing-4);
+  background: var(--color-gray-900);
+  color: white;
+  padding: var(--spacing-3) var(--spacing-4);
   text-decoration: none;
-  z-index: 9999;
-  border-radius: 4px;
+  z-index: var(--z-tooltip);
+  border-radius: var(--radius-md);
+  transition: top var(--transition-fast);
+  font-weight: var(--font-weight-medium);
 
   &:focus {
-    top: 6px;
+    top: var(--spacing-4);
   }
 }
 
-// Elderly-friendly button styles
-.btn-elderly {
-  min-height: 48px !important;
-  min-width: 120px;
-  font-size: 16px !important;
-  font-weight: 500;
-  padding: 12px 24px !important;
-  border-radius: 8px !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+// Modern Button Styles
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3) var(--spacing-6);
+  border: none;
+  border-radius: var(--radius-xl);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  min-height: 48px; // Accessibility requirement
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transition: left var(--transition-slow);
+  }
+
+  &:hover::before {
+    left: 100%;
+  }
+
+  // Primary Button
+  &-primary {
+    background: var(--gradient-primary);
+    color: white;
+    box-shadow: var(--shadow-md);
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  // Secondary Button
+  &-secondary {
+    background: var(--color-background);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    box-shadow: var(--shadow-sm);
+
+    &:hover {
+      background: var(--color-primary);
+      color: white;
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-md);
+    }
+  }
+
+  // Ghost Button
+  &-ghost {
+    background: transparent;
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-gray-300);
+
+    &:hover {
+      background: var(--color-gray-100);
+      border-color: var(--color-gray-400);
+    }
+  }
+
+  // Large Button
+  &-lg {
+    padding: var(--spacing-4) var(--spacing-8);
+    font-size: var(--font-size-lg);
+    min-height: 56px;
+  }
+
+  // Small Button
+  &-sm {
+    padding: var(--spacing-2) var(--spacing-4);
+    font-size: var(--font-size-sm);
+    min-height: 40px;
+  }
+}
+
+// Modern Card Styles
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-6);
+  transition: all var(--transition-normal);
+  border: 1px solid var(--color-gray-200);
 
   &:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+  }
+
+  &-glass {
+    background: var(--gradient-glass);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
 }
 
-// Large clickable areas
-.clickable-large {
-  min-height: 48px;
-  min-width: 48px;
-  padding: 12px;
+// Typography Classes
+.text {
+  &-xs { font-size: var(--font-size-xs); }
+  &-sm { font-size: var(--font-size-sm); }
+  &-base { font-size: var(--font-size-base); }
+  &-lg { font-size: var(--font-size-lg); }
+  &-xl { font-size: var(--font-size-xl); }
+  &-2xl { font-size: var(--font-size-2xl); }
+  &-3xl { font-size: var(--font-size-3xl); }
+  &-4xl { font-size: var(--font-size-4xl); }
+  &-5xl { font-size: var(--font-size-5xl); }
+  &-6xl { font-size: var(--font-size-6xl); }
+  &-7xl { font-size: var(--font-size-7xl); }
+
+  &-light { font-weight: var(--font-weight-light); }
+  &-normal { font-weight: var(--font-weight-normal); }
+  &-medium { font-weight: var(--font-weight-medium); }
+  &-semibold { font-weight: var(--font-weight-semibold); }
+  &-bold { font-weight: var(--font-weight-bold); }
+  &-black { font-weight: var(--font-weight-black); }
+
+  &-primary { color: var(--color-text-primary); }
+  &-secondary { color: var(--color-text-secondary); }
+  &-tertiary { color: var(--color-text-tertiary); }
+
+  &-center { text-align: center; }
+  &-left { text-align: left; }
+  &-right { text-align: right; }
 }
 
-// High contrast text
-.high-contrast-text {
-  color: #000000;
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+// Container
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-4);
+
+  @media (min-width: 768px) {
+    padding: 0 var(--spacing-6);
+  }
+
+  @media (min-width: 1024px) {
+    padding: 0 var(--spacing-8);
+  }
 }
 
-/* Import shared responsive design system */
-@import 'app/shared/responsive';
+// Section spacing
+.section {
+  padding: var(--spacing-16) 0;
+
+  @media (min-width: 768px) {
+    padding: var(--spacing-20) 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: var(--spacing-24) 0;
+  }
+}
+
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out;
+}
 
 /* You can add global styles to this file, and also import other style files */

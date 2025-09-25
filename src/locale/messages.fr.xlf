@@ -1,38 +1,2393 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" target-language="fr" datatype="plaintext" original="ng2.template">
-    <body>
-      <!-- Navigation -->
-      <trans-unit id="nav.home" datatype="html">
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-CA" trgLang="fr-CA">
+  <file id="ngi18n" original="ng.template">
+
+    <!-- Companions Page -->
+    <unit id="companions.hero.title">
+      <segment>
+        <source>Meet Our Caring Companions</source>
+        <target>Rencontrez Nos Accompagnateurs Attentionnés</target>
+      </segment>
+    </unit>
+    <unit id="companions.hero.description">
+      <segment>
+        <source> Our team of certified, compassionate companions are carefully selected and trained to provide exceptional care. Each companion undergoes thorough background checks, skills assessment, and ongoing education to ensure the highest quality of service. </source>
+        <target> Notre équipe d'accompagnateurs certifiés et compatissants sont soigneusement sélectionnés et formés pour fournir des soins exceptionnels. Chaque accompagnateur subit des vérifications d'antécédents approfondies, une évaluation des compétences et une formation continue pour assurer la plus haute qualité de service. </target>
+      </segment>
+    </unit>
+    <unit id="companions.stats.companions">
+      <segment>
+        <source>Certified Companions</source>
+        <target>Accompagnateurs Certifiés</target>
+      </segment>
+    </unit>
+    <unit id="companions.stats.background">
+      <segment>
+        <source>Background Checked</source>
+        <target>Vérifiés aux Antécédents</target>
+      </segment>
+    </unit>
+    <unit id="companions.stats.languages">
+      <segment>
+        <source>Languages Spoken</source>
+        <target>Langues Parlées</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.title">
+      <segment>
+        <source>Find the Perfect Match</source>
+        <target>Trouvez l'Accompagnateur Parfait</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.description">
+      <segment>
+        <source> Use our filters to find companions who speak specific languages, have relevant experience, or offer specialized services. </source>
+        <target> Utilisez nos filtres pour trouver des accompagnateurs qui parlent des langues spécifiques, ont une expérience pertinente ou offrent des services spécialisés. </target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty">
+      <segment>
+        <source>Specialty</source>
+        <target>Spécialité</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty.all">
+      <segment>
+        <source>All Specialties</source>
+        <target>Toutes les Spécialités</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty.dementia">
+      <segment>
+        <source>Dementia Care</source>
+        <target>Soins pour la Démence</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty.mobility">
+      <segment>
+        <source>Mobility Assistance</source>
+        <target>Aide à la Mobilité</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty.technology">
+      <segment>
+        <source>Technology Support</source>
+        <target>Support Technologique</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty.meals">
+      <segment>
+        <source>Meal Preparation</source>
+        <target>Préparation de Repas</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.specialty.medical">
+      <segment>
+        <source>Medical Support</source>
+        <target>Soutien Médical</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language">
+      <segment>
+        <source>Language</source>
+        <target>Langue</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.all">
+      <segment>
+        <source>All Languages</source>
+        <target>Toutes les Langues</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.english">
+      <segment>
+        <source>English</source>
+        <target>Anglais</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.french">
+      <segment>
+        <source>French</source>
+        <target>Français</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.spanish">
+      <segment>
+        <source>Spanish</source>
+        <target>Espagnol</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.italian">
+      <segment>
+        <source>Italian</source>
+        <target>Italien</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.portuguese">
+      <segment>
+        <source>Portuguese</source>
+        <target>Portugais</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.language.mandarin">
+      <segment>
+        <source>Mandarin</source>
+        <target>Mandarin</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability">
+      <segment>
+        <source>Availability</source>
+        <target>Disponibilité</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability.all">
+      <segment>
+        <source>All Times</source>
+        <target>Tous les Horaires</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability.morning">
+      <segment>
+        <source>Morning</source>
+        <target>Matin</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability.afternoon">
+      <segment>
+        <source>Afternoon</source>
+        <target>Après-midi</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability.evening">
+      <segment>
+        <source>Evening</source>
+        <target>Soir</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.availability.weekend">
+      <segment>
+        <source>Weekends</source>
+        <target>Fins de Semaine</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.location">
+      <segment>
+        <source>Location</source>
+        <target>Emplacement</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.location.all">
+      <segment>
+        <source>All Montreal</source>
+        <target>Tout Montréal</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.clear">
+      <segment>
+        <source>Clear Filters</source>
+        <target>Effacer les Filtres</target>
+      </segment>
+    </unit>
+    <unit id="companions.card.experience">
+      <segment>
+        <source>years of experience</source>
+        <target>années d'expérience</target>
+      </segment>
+    </unit>
+    <unit id="companions.card.languages">
+      <segment>
+        <source>Languages:</source>
+        <target>Langues:</target>
+      </segment>
+    </unit>
+    <unit id="companions.card.specialties">
+      <segment>
+        <source>Specialties:</source>
+        <target>Spécialités:</target>
+      </segment>
+    </unit>
+    <unit id="companions.card.availability">
+      <segment>
+        <source>Available:</source>
+        <target>Disponible:</target>
+      </segment>
+    </unit>
+    <unit id="companions.card.verified">
+      <segment>
+        <source>Verified</source>
+        <target>Vérifié</target>
+      </segment>
+    </unit>
+    <unit id="companions.card.book">
+      <segment>
+        <source>Book Consultation</source>
+        <target>Réserver une Consultation</target>
+      </segment>
+    </unit>
+
+    <!-- Contact Page -->
+    <unit id="contact.hero.title">
+      <segment>
+        <source>Join Our Volunteer Community</source>
+        <target>Rejoignez Notre Communauté de Bénévoles</target>
+      </segment>
+    </unit>
+    <unit id="contact.hero.subtitle">
+      <segment>
+        <source>Ready to make a difference in your community while earning volunteer hours? Contact us to learn about volunteer opportunities and start your meaningful journey helping elderly community members.</source>
+        <target>Prêt à faire une différence dans votre communauté tout en gagnant des heures de bénévolat? Contactez-nous pour en savoir plus sur les opportunités de bénévolat et commencer votre parcours significatif d'aide aux membres âgés de la communauté.</target>
+      </segment>
+    </unit>
+    <unit id="contact.hero.description">
+      <segment>
+        <source> We're here to answer your questions and help you find the perfect companion for yourself or your loved one. Our team is available to discuss your specific needs and provide personalized recommendations. </source>
+        <target> Nous sommes là pour répondre à vos questions et vous aider à trouver l'accompagnateur parfait pour vous ou votre proche. Notre équipe est disponible pour discuter de vos besoins spécifiques et fournir des recommandations personnalisées. </target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.call">
+      <segment>
+        <source>Call Us</source>
+        <target>Appelez-nous</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.call.description">
+      <segment>
+        <source>Speak directly with our care coordinators</source>
+        <target>Parlez directement avec nos coordinateurs de soins</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.call.hours">
+      <segment>
+        <source>Available Mon-Fri, 8AM-6PM EST</source>
+        <target>Disponible Lun-Ven, 8h-18h EST</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.email">
+      <segment>
+        <source>Email Support</source>
+        <target>Support par Courriel</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.email.description">
+      <segment>
+        <source>Get detailed answers to your questions</source>
+        <target>Obtenez des réponses détaillées à vos questions</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.email.response">
+      <segment>
+        <source>Response within 24 hours</source>
+        <target>Réponse dans les 24 heures</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.visit">
+      <segment>
+        <source>Visit Our Office</source>
+        <target>Visitez Notre Bureau</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.visit.description">
+      <segment>
+        <source>Meet our team in person for a consultation</source>
+        <target>Rencontrez notre équipe en personne pour une consultation</target>
+      </segment>
+    </unit>
+    <unit id="contact.methods.visit.appointment">
+      <segment>
+        <source>By appointment only</source>
+        <target>Sur rendez-vous seulement</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.title">
+      <segment>
+        <source>Send us a Message</source>
+        <target>Envoyez-nous un Message</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.description">
+      <segment>
+        <source>Fill out the form below and we'll get back to you within 24 hours.</source>
+        <target>Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures.</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.name">
+      <segment>
+        <source>Full Name</source>
+        <target>Nom Complet</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.email">
+      <segment>
+        <source>Email Address</source>
+        <target>Adresse Courriel</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.phone">
+      <segment>
+        <source>Phone Number</source>
+        <target>Numéro de Téléphone</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.subject">
+      <segment>
+        <source>Subject</source>
+        <target>Sujet</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.subject.general">
+      <segment>
+        <source>General Inquiry</source>
+        <target>Demande Générale</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.subject.services">
+      <segment>
+        <source>Services Information</source>
+        <target>Informations sur les Services</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.subject.pricing">
+      <segment>
+        <source>Pricing Questions</source>
+        <target>Questions sur les Tarifs</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.subject.consultation">
+      <segment>
+        <source>Book Consultation</source>
+        <target>Réserver une Consultation</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.subject.support">
+      <segment>
+        <source>Customer Support</source>
+        <target>Service à la Clientèle</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.message">
+      <segment>
+        <source>Message</source>
+        <target>Message</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.message.placeholder">
+      <segment>
+        <source>Tell us about your needs, questions, or how we can help...</source>
+        <target>Parlez-nous de vos besoins, questions, ou comment nous pouvons vous aider...</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.privacy">
+      <segment>
+        <source>I agree to the</source>
+        <target>J'accepte les</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.privacy.link">
+      <segment>
+        <source>Privacy Policy</source>
+        <target>Politiques de Confidentialité</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.privacy.and">
+      <segment>
+        <source>and</source>
+        <target>et les</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.terms.link">
+      <segment>
+        <source>Terms of Service</source>
+        <target>Conditions de Service</target>
+      </segment>
+    </unit>
+    <unit id="contact.form.submit">
+      <segment>
+        <source>Send Message</source>
+        <target>Envoyer le Message</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.title">
+      <segment>
+        <source>Our Montreal Office</source>
+        <target>Notre Bureau de Montréal</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.address">
+      <segment>
+        <source>123 Saint-Laurent Boulevard</source>
+        <target>123 Boulevard Saint-Laurent</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.city">
+      <segment>
+        <source>Montreal, QC H2X 3M2</source>
+        <target>Montréal, QC H2X 3M2</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.metro">
+      <segment>
+        <source>Metro: Saint-Laurent (Green Line)</source>
+        <target>Métro: Saint-Laurent (Ligne Verte)</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.hours">
+      <segment>
+        <source>Office Hours</source>
+        <target>Heures d'Ouverture</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.hours.weekday">
+      <segment>
+        <source>Monday - Friday: 8:00 AM - 6:00 PM</source>
+        <target>Lundi - Vendredi: 8h00 - 18h00</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.hours.weekend">
+      <segment>
+        <source>Saturday - Sunday: Closed</source>
+        <target>Samedi - Dimanche: Fermé</target>
+      </segment>
+    </unit>
+    <unit id="contact.office.parking">
+      <segment>
+        <source>Free parking available</source>
+        <target>Stationnement gratuit disponible</target>
+      </segment>
+    </unit>
+
+    <!-- Booking Page -->
+    <unit id="booking.hero.title">
+      <segment>
+        <source>Book Your Free Consultation</source>
+        <target>Réservez Votre Consultation Gratuite</target>
+      </segment>
+    </unit>
+    <unit id="booking.hero.subtitle">
+      <segment>
+        <source>Let's find the perfect companion for you or your loved one</source>
+        <target>Trouvons l'accompagnateur parfait pour vous ou votre proche</target>
+      </segment>
+    </unit>
+    <unit id="booking.hero.description">
+      <segment>
+        <source> Our free consultation includes a comprehensive assessment of your needs, introduction to potential companions, and a customized care plan. No commitment required. </source>
+        <target> Notre consultation gratuite comprend une évaluation complète de vos besoins, une présentation d'accompagnateurs potentiels et un plan de soins personnalisé. Aucun engagement requis. </target>
+      </segment>
+    </unit>
+    <unit id="booking.steps.title">
+      <segment>
+        <source>Simple 3-Step Process</source>
+        <target>Processus Simple en 3 Étapes</target>
+      </segment>
+    </unit>
+    <unit id="booking.step1.title">
+      <segment>
+        <source>Tell Us About Your Needs</source>
+        <target>Parlez-nous de Vos Besoins</target>
+      </segment>
+    </unit>
+    <unit id="booking.step1.description">
+      <segment>
+        <source>Share information about care requirements, preferences, and schedule</source>
+        <target>Partagez des informations sur les exigences de soins, préférences et horaire</target>
+      </segment>
+    </unit>
+    <unit id="booking.step2.title">
+      <segment>
+        <source>Meet Your Potential Companion</source>
+        <target>Rencontrez Votre Accompagnateur Potentiel</target>
+      </segment>
+    </unit>
+    <unit id="booking.step2.description">
+      <segment>
+        <source>We'll introduce you to carefully selected companions that match your criteria</source>
+        <target>Nous vous présenterons des accompagnateurs soigneusement sélectionnés qui correspondent à vos critères</target>
+      </segment>
+    </unit>
+    <unit id="booking.step3.title">
+      <segment>
+        <source>Start Your Care Journey</source>
+        <target>Commencez Votre Parcours de Soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.step3.description">
+      <segment>
+        <source>Begin with a flexible care plan that can be adjusted as needs evolve</source>
+        <target>Commencez avec un plan de soins flexible qui peut être ajusté selon l'évolution des besoins</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.title">
+      <segment>
+        <source>Schedule Your Consultation</source>
+        <target>Planifiez Votre Consultation</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.personal.title">
+      <segment>
+        <source>Personal Information</source>
+        <target>Informations Personnelles</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.client.name">
+      <segment>
+        <source>Your Name</source>
+        <target>Votre Nom</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.client.email">
+      <segment>
+        <source>Email Address</source>
+        <target>Adresse Courriel</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.client.phone">
+      <segment>
+        <source>Phone Number</source>
+        <target>Numéro de Téléphone</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.relationship">
+      <segment>
+        <source>Relationship to Care Recipient</source>
+        <target>Relation avec le Bénéficiaire de Soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.relationship.self">
+      <segment>
+        <source>Myself</source>
+        <target>Moi-même</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.relationship.spouse">
+      <segment>
+        <source>Spouse/Partner</source>
+        <target>Époux/Partenaire</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.relationship.parent">
+      <segment>
+        <source>Parent</source>
+        <target>Parent</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.relationship.grandparent">
+      <segment>
+        <source>Grandparent</source>
+        <target>Grand-parent</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.relationship.other">
+      <segment>
+        <source>Other Family Member</source>
+        <target>Autre Membre de la Famille</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.care.title">
+      <segment>
+        <source>Care Information</source>
+        <target>Informations sur les Soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.care.recipient">
+      <segment>
+        <source>Care Recipient's Name</source>
+        <target>Nom du Bénéficiaire de Soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.care.age">
+      <segment>
+        <source>Age</source>
+        <target>Âge</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.care.location">
+      <segment>
+        <source>Care Location</source>
+        <target>Lieu de Soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.care.location.placeholder">
+      <segment>
+        <source>Neighborhood or area in Montreal</source>
+        <target>Quartier ou secteur à Montréal</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.title">
+      <segment>
+        <source>Services Needed</source>
+        <target>Services Requis</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.companionship">
+      <segment>
+        <source>Companionship &amp; Social Interaction</source>
+        <target>Compagnie et Interaction Sociale</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.personal">
+      <segment>
+        <source>Personal Care Assistance</source>
+        <target>Aide aux Soins Personnels</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.household">
+      <segment>
+        <source>Light Household Tasks</source>
+        <target>Tâches Ménagères Légères</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.meals">
+      <segment>
+        <source>Meal Preparation</source>
+        <target>Préparation de Repas</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.transportation">
+      <segment>
+        <source>Transportation &amp; Errands</source>
+        <target>Transport et Commissions</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.medication">
+      <segment>
+        <source>Medication Reminders</source>
+        <target>Rappels de Médicaments</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.services.dementia">
+      <segment>
+        <source>Dementia/Memory Care</source>
+        <target>Soins pour Démence/Mémoire</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.title">
+      <segment>
+        <source>Preferred Schedule</source>
+        <target>Horaire Préféré</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.frequency">
+      <segment>
+        <source>How often do you need care?</source>
+        <target>À quelle fréquence avez-vous besoin de soins?</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.daily">
+      <segment>
+        <source>Daily</source>
+        <target>Quotidiennement</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.several">
+      <segment>
+        <source>Several times per week</source>
+        <target>Plusieurs fois par semaine</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.weekly">
+      <segment>
+        <source>Once or twice per week</source>
+        <target>Une ou deux fois par semaine</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.occasional">
+      <segment>
+        <source>Occasional/As needed</source>
+        <target>Occasionnel/Au besoin</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.times">
+      <segment>
+        <source>Preferred time of day?</source>
+        <target>Moment préféré de la journée?</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.morning">
+      <segment>
+        <source>Morning (8AM-12PM)</source>
+        <target>Matin (8h-12h)</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.afternoon">
+      <segment>
+        <source>Afternoon (12PM-5PM)</source>
+        <target>Après-midi (12h-17h)</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.evening">
+      <segment>
+        <source>Evening (5PM-9PM)</source>
+        <target>Soir (17h-21h)</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.schedule.flexible">
+      <segment>
+        <source>Flexible</source>
+        <target>Flexible</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.preferences.title">
+      <segment>
+        <source>Companion Preferences</source>
+        <target>Préférences d'Accompagnateur</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.preferences.languages">
+      <segment>
+        <source>Preferred Languages</source>
+        <target>Langues Préférées</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.preferences.gender">
+      <segment>
+        <source>Gender Preference</source>
+        <target>Préférence de Genre</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.preferences.gender.no">
+      <segment>
+        <source>No preference</source>
+        <target>Aucune préférence</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.preferences.gender.female">
+      <segment>
+        <source>Female</source>
+        <target>Féminin</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.preferences.gender.male">
+      <segment>
+        <source>Male</source>
+        <target>Masculin</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.additional.title">
+      <segment>
+        <source>Additional Information</source>
+        <target>Informations Supplémentaires</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.additional.notes">
+      <segment>
+        <source>Special requirements or additional information</source>
+        <target>Exigences spéciales ou informations supplémentaires</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.additional.placeholder">
+      <segment>
+        <source>Please share any specific needs, medical conditions, interests, or other relevant information...</source>
+        <target>Veuillez partager tous besoins spécifiques, conditions médicales, intérêts ou autres informations pertinentes...</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.title">
+      <segment>
+        <source>Consultation Details</source>
+        <target>Détails de la Consultation</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.type">
+      <segment>
+        <source>Consultation Type</source>
+        <target>Type de Consultation</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.phone">
+      <segment>
+        <source>Phone Call</source>
+        <target>Appel Téléphonique</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.video">
+      <segment>
+        <source>Video Call</source>
+        <target>Appel Vidéo</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.person">
+      <segment>
+        <source>In-Person (at our office)</source>
+        <target>En Personne (à notre bureau)</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.home">
+      <segment>
+        <source>In-Person (at your home)</source>
+        <target>En Personne (à votre domicile)</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.date">
+      <segment>
+        <source>Preferred Date</source>
+        <target>Date Préférée</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.consultation.time">
+      <segment>
+        <source>Preferred Time</source>
+        <target>Heure Préférée</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.submit">
+      <segment>
+        <source>Schedule Consultation</source>
+        <target>Planifier la Consultation</target>
+      </segment>
+    </unit>
+    <unit id="booking.confirmation.title">
+      <segment>
+        <source>Consultation Scheduled!</source>
+        <target>Consultation Planifiée!</target>
+      </segment>
+    </unit>
+    <unit id="booking.confirmation.message">
+      <segment>
+        <source>Thank you for booking your consultation. We'll contact you within 24 hours to confirm your appointment.</source>
+        <target>Merci d'avoir réservé votre consultation. Nous vous contacterons dans les 24 heures pour confirmer votre rendez-vous.</target>
+      </segment>
+    </unit>
+
+    <!-- Language Toggle -->
+    <unit id="language.switch.english">
+      <segment>
+        <source>Switch to English</source>
+        <target>Changer vers l'anglais</target>
+      </segment>
+    </unit>
+    <unit id="language.switch.french">
+      <segment>
+        <source>Changer en français</source>
+        <target>Switch to French</target>
+      </segment>
+    </unit>
+
+    <!-- Accessibility -->
+    <unit id="accessibility.skip.nav">
+      <segment>
+        <source>Skip to main content</source>
+        <target>Aller au contenu principal</target>
+      </segment>
+    </unit>
+
+    <!-- Brand -->
+    <unit id="brand.tagline">
+      <segment>
+        <source>Montreal</source>
+        <target>Montréal</target>
+      </segment>
+    </unit>
+
+    <!-- Navigation -->
+    <unit id="nav.home">
+      <segment>
         <source>Home</source>
         <target>Accueil</target>
-      </trans-unit>
-      <trans-unit id="nav.about" datatype="html">
+      </segment>
+    </unit>
+    <unit id="nav.about">
+      <segment>
         <source>About Us</source>
         <target>À Propos</target>
-      </trans-unit>
-      <trans-unit id="nav.services" datatype="html">
+      </segment>
+    </unit>
+    <unit id="nav.services">
+      <segment>
         <source>Services</source>
         <target>Services</target>
-      </trans-unit>
-      <trans-unit id="nav.contact" datatype="html">
+      </segment>
+    </unit>
+    <unit id="nav.companions">
+      <segment>
+        <source>Our Companions</source>
+        <target>Nos Accompagnateurs</target>
+      </segment>
+    </unit>
+    <unit id="nav.contact">
+      <segment>
         <source>Contact</source>
         <target>Contact</target>
-      </trans-unit>
+      </segment>
+    </unit>
 
-      <!-- Common Actions -->
-      <trans-unit id="action.book.consultation" datatype="html">
+    <!-- Actions -->
+    <unit id="action.book.consultation">
+      <segment>
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z&quot;/&gt;" dispEnd="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;"></pc><pc id="2" equivStart="START_TAG__SVG_PATH_1" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;" dispEnd="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;"></pc></pc><pc id="3" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;">Book Free Consultation</pc></source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg width=&quot;16&quot; height=&quot;16&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 16 16&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z&quot;/&gt;" dispEnd="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;"></pc><pc id="2" equivStart="START_TAG__SVG_PATH_1" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;" dispEnd="&lt;path d=&quot;m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z&quot;/&gt;"></pc></pc><pc id="3" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;">Réserver une Consultation Gratuite</pc></target>
+      </segment>
+    </unit>
+
+    <!-- Footer -->
+    <unit id="footer.tagline">
+      <segment>
+        <source>Compassionate Care • Montreal</source>
+        <target>Soins Compassionnels • Montréal</target>
+      </segment>
+    </unit>
+    <unit id="footer.description">
+      <segment>
+        <source> Professional companion services designed to enrich the lives of elderly individuals while providing peace of mind to their families. We believe in dignity, independence, and the power of human connection. </source>
+        <target> Services d'accompagnement professionnels conçus pour enrichir la vie des personnes âgées tout en offrant la tranquillité d'esprit aux familles. Nous croyons en la dignité, l'indépendance et le pouvoir de la connexion humaine. </target>
+      </segment>
+    </unit>
+
+    <!-- Badges -->
+    <unit id="badge.certified">
+      <segment>
+        <source>Certified &amp; Insured</source>
+        <target>Certifié et Assuré</target>
+      </segment>
+    </unit>
+    <unit id="badge.support">
+      <segment>
+        <source>24/7 Support</source>
+        <target>Support 24h/7j</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Services -->
+    <unit id="footer.services.title">
+      <segment>
+        <source>Our Services</source>
+        <target>Nos Services</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.companionship">
+      <segment>
+        <source>Daily Companionship</source>
+        <target>Accompagnement Quotidien</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.personal.care">
+      <segment>
+        <source>Personal Care</source>
+        <target>Soins Personnels</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.household">
+      <segment>
+        <source>Household Support</source>
+        <target>Soutien Domestique</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.transportation">
+      <segment>
+        <source>Transportation</source>
+        <target>Transport</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.specialized">
+      <segment>
+        <source>Specialized Care</source>
+        <target>Soins Spécialisés</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Company -->
+    <unit id="footer.company.title">
+      <segment>
+        <source>Company</source>
+        <target>Entreprise</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.about">
+      <segment>
+        <source>About Us</source>
+        <target>À Propos</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.companions">
+      <segment>
+        <source>Our Companions</source>
+        <target>Nos Accompagnateurs</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.careers">
+      <segment>
+        <source>Careers</source>
+        <target>Carrières</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.testimonials">
+      <segment>
+        <source>Testimonials</source>
+        <target>Témoignages</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.blog">
+      <segment>
+        <source>Blog</source>
+        <target>Blog</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Support -->
+    <unit id="footer.support.title">
+      <segment>
+        <source>Support</source>
+        <target>Soutien</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.contact">
+      <segment>
+        <source>Contact Us</source>
+        <target>Contactez-nous</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.faq">
+      <segment>
+        <source>FAQ</source>
+        <target>FAQ</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.help">
+      <segment>
+        <source>Help Center</source>
+        <target>Centre d'Aide</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.emergency">
+      <segment>
+        <source>Emergency</source>
+        <target>Urgence</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Legal -->
+    <unit id="footer.legal.title">
+      <segment>
+        <source>Legal</source>
+        <target>Légal</target>
+      </segment>
+    </unit>
+    <unit id="footer.legal.privacy">
+      <segment>
+        <source>Privacy Policy</source>
+        <target>Politique de Confidentialité</target>
+      </segment>
+    </unit>
+    <unit id="footer.legal.terms">
+      <segment>
+        <source>Terms of Service</source>
+        <target>Conditions de Service</target>
+      </segment>
+    </unit>
+    <unit id="footer.legal.accessibility">
+      <segment>
+        <source>Accessibility</source>
+        <target>Accessibilité</target>
+      </segment>
+    </unit>
+    <unit id="footer.legal.complaints">
+      <segment>
+        <source>Complaints Process</source>
+        <target>Processus de Plaintes</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Bottom -->
+    <unit id="footer.copyright">
+      <segment>
+        <source>© 2025 KindCompanion. All rights reserved.</source>
+        <target>© 2025 KindCompanion. Tous droits réservés.</target>
+      </segment>
+    </unit>
+    <unit id="footer.license">
+      <segment>
+        <source>Licensed companion service provider in Montreal, Quebec.</source>
+        <target>Fournisseur de services d'accompagnement agréé à Montréal, Québec.</target>
+      </segment>
+    </unit>
+
+    <!-- Error Pages -->
+    <unit id="error.404.title">
+      <segment>
+        <source>Page Not Found</source>
+        <target>Page Non Trouvée</target>
+      </segment>
+    </unit>
+    <unit id="error.404.description">
+      <segment>
+        <source>Sorry, we couldn't find the page you're looking for. The page may have been moved, deleted, or the URL might be incorrect.</source>
+        <target>Désolé, nous n'avons pas pu trouver la page que vous recherchez. La page a peut-être été déplacée, supprimée ou l'URL pourrait être incorrecte.</target>
+      </segment>
+    </unit>
+    <unit id="error.403.title">
+      <segment>
+        <source>Access Forbidden</source>
+        <target>Accès Interdit</target>
+      </segment>
+    </unit>
+    <unit id="error.403.description">
+      <segment>
+        <source>You don't have permission to access this resource. This could be due to insufficient privileges or you may need to log in with the appropriate credentials.</source>
+        <target>Vous n'avez pas la permission d'accéder à cette ressource. Cela pourrait être dû à des privilèges insuffisants ou vous pourriez avoir besoin de vous connecter avec les bonnes informations d'identification.</target>
+      </segment>
+    </unit>
+    <unit id="error.500.title">
+      <segment>
+        <source>Server Error</source>
+        <target>Erreur Serveur</target>
+      </segment>
+    </unit>
+    <unit id="error.500.description">
+      <segment>
+        <source>We're experiencing some technical difficulties on our end. Our team has been notified and is working to resolve the issue as quickly as possible.</source>
+        <target>Nous rencontrons des difficultés techniques de notre côté. Notre équipe a été notifiée et travaille à résoudre le problème aussi rapidement que possible.</target>
+      </segment>
+    </unit>
+    <unit id="error.400.title">
+      <segment>
+        <source>Bad Request</source>
+        <target>Mauvaise Requête</target>
+      </segment>
+    </unit>
+    <unit id="error.400.description">
+      <segment>
+        <source>The request could not be understood by the server. This might be due to malformed syntax or invalid request parameters.</source>
+        <target>La requête n'a pas pu être comprise par le serveur. Cela pourrait être dû à une syntaxe mal formée ou à des paramètres de requête invalides.</target>
+      </segment>
+    </unit>
+
+    <!-- Error Actions -->
+    <unit id="error.action.refresh">
+      <segment>
+        <source>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$START_TAG__SVG_PATH_1}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Refresh Page </source>
+        <target>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$START_TAG__SVG_PATH_1}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Actualiser la Page </target>
+      </segment>
+    </unit>
+    <unit id="error.action.home">
+      <segment>
+        <source>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Return Home </source>
+        <target>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Retour à l'Accueil </target>
+      </segment>
+    </unit>
+    <unit id="error.action.contact">
+      <segment>
+        <source>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Contact Support </source>
+        <target>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Contacter le Support </target>
+      </segment>
+    </unit>
+    <unit id="error.action.login">
+      <segment>
+        <source>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$START_TAG__SVG_PATH_1}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Sign In </source>
+        <target>{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$CLOSE_TAG__SVG_PATH}{$START_TAG__SVG_PATH_1}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG} Se Connecter </target>
+      </segment>
+    </unit>
+
+    <!-- Error Info -->
+    <unit id="error.info.what-happened">
+      <segment>
+        <source>What happened?</source>
+        <target>Que s'est-il passé?</target>
+      </segment>
+    </unit>
+    <unit id="error.info.server-issue">
+      <segment>
+        <source>Our server encountered an unexpected error while processing your request. This is usually temporary and resolves itself quickly.</source>
+        <target>Notre serveur a rencontré une erreur inattendue lors du traitement de votre demande. Ceci est généralement temporaire et se résout rapidement.</target>
+      </segment>
+    </unit>
+    <unit id="error.info.what-to-do">
+      <segment>
+        <source>What can you do?</source>
+        <target>Que pouvez-vous faire?</target>
+      </segment>
+    </unit>
+    <unit id="error.info.try-refresh">
+      <segment>
+        <source>Try refreshing the page</source>
+        <target>Essayez d'actualiser la page</target>
+      </segment>
+    </unit>
+    <unit id="error.info.wait-moment">
+      <segment>
+        <source>Wait a few minutes and try again</source>
+        <target>Attendez quelques minutes et réessayez</target>
+      </segment>
+    </unit>
+    <unit id="error.info.contact-support">
+      <segment>
+        <source>Contact our support team if the problem persists</source>
+        <target>Contactez notre équipe de support si le problème persiste</target>
+      </segment>
+    </unit>
+
+    <!-- Access Info -->
+    <unit id="error.access.possible-reasons">
+      <segment>
+        <source>Possible reasons:</source>
+        <target>Raisons possibles:</target>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-login">
+      <segment>
+        <source>You need to log in to access this page</source>
+        <target>Vous devez vous connecter pour accéder à cette page</target>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-permissions">
+      <segment>
+        <source>Your account doesn't have the required permissions</source>
+        <target>Votre compte n'a pas les permissions requises</target>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-expired">
+      <segment>
+        <source>Your session may have expired</source>
+        <target>Votre session a peut-être expiré</target>
+      </segment>
+    </unit>
+    <unit id="error.access.reason-restricted">
+      <segment>
+        <source>The resource is restricted to certain user types</source>
+        <target>La ressource est restreinte à certains types d'utilisateurs</target>
+      </segment>
+    </unit>
+
+    <!-- Help Info -->
+    <unit id="error.help.family-members">
+      <segment>
+        <source>Family Members</source>
+        <target>Membres de la Famille</target>
+      </segment>
+    </unit>
+    <unit id="error.help.family-description">
+      <segment>
+        <source>If you're a family member looking to access care information, please use the family dashboard login.</source>
+        <target>Si vous êtes un membre de la famille cherchant à accéder aux informations de soins, veuillez utiliser la connexion du tableau de bord familial.</target>
+      </segment>
+    </unit>
+    <unit id="error.help.family-login">
+      <segment>
+        <source>Family Login</source>
+        <target>Connexion Famille</target>
+      </segment>
+    </unit>
+    <unit id="error.help.staff">
+      <segment>
+        <source>Staff &amp; Administrators</source>
+        <target>Personnel et Administrateurs</target>
+      </segment>
+    </unit>
+    <unit id="error.help.staff-description">
+      <segment>
+        <source>KindCompanion staff and administrators should use the admin portal with your work credentials.</source>
+        <target>Le personnel et les administrateurs de KindCompanion doivent utiliser le portail administrateur avec vos identifiants de travail.</target>
+      </segment>
+    </unit>
+    <unit id="error.help.admin-login">
+      <segment>
+        <source>Staff Login</source>
+        <target>Connexion Personnel</target>
+      </segment>
+    </unit>
+
+    <!-- Home Page -->
+    <unit id="home.loading.message">
+      <segment>
+        <source>Welcome to KindCompanion</source>
+        <target>Bienvenue à KindCompanion</target>
+      </segment>
+    </unit>
+    <unit id="home.loading.subMessage">
+      <segment>
+        <source>Loading your personalized experience...</source>
+        <target>Chargement de votre expérience personnalisée...</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.badge">
+      <segment>
+        <source>Community Volunteer Network</source>
+        <target>Réseau de Bénévoles Communautaire</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.title">
+      <segment>
+        <source>Meaningful Volunteer Opportunities Helping Elderly in Montreal</source>
+        <target>Opportunités de Bénévolat Significatives Aidant les Aînés à Montréal</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.description">
+      <segment>
+        <source>Connect with elderly community members while earning volunteer hours for your studies, community service requirements, or personal growth.</source>
+        <target>Connectez-vous avec les membres âgés de la communauté tout en gagnant des heures de bénévolat pour vos études, exigences de service communautaire, ou croissance personnelle.</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.ctaPrimary">
+      <segment>
+        <source>Join as Volunteer</source>
+        <target>Rejoindre comme Bénévole</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.ctaSecondary">
+      <segment>
+        <source>Learn About Opportunities</source>
+        <target>En Savoir Plus sur les Opportunités</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat1.number">
+      <segment>
+        <source>200+</source>
+        <target>200+</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat1.label">
+      <segment>
+        <source>Active Volunteers</source>
+        <target>Bénévoles Actifs</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat2.number">
+      <segment>
+        <source>15,000+</source>
+        <target>15,000+</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.stat2.label">
+      <segment>
+        <source>Hours Completed</source>
+        <target>Heures Complétées</target>
+      </segment>
+    </unit>
+    <unit id="home.hero.imageText">
+      <segment>
+        <source>Community Volunteer Program</source>
+        <target>Programme de Bénévolat Communautaire</target>
+      </segment>
+    </unit>
+    <unit id="home.features.title">
+      <segment>
+        <source>Why Volunteer With Us?</source>
+        <target>Pourquoi Faire du Bénévolat avec Nous?</target>
+      </segment>
+    </unit>
+    <unit id="home.features.subtitle">
+      <segment>
+        <source>Perfect for students, community service requirements, and meaningful impact</source>
+        <target>Parfait pour les étudiants, exigences de service communautaire, et impact significatif</target>
+      </segment>
+    </unit>
+    <unit id="home.features.feature1.title">
+      <segment>
+        <source>Student-Friendly</source>
+        <target>Convivial pour Étudiants</target>
+      </segment>
+    </unit>
+    <unit id="home.features.feature1.description">
+      <segment>
+        <source>Perfect for students needing volunteer hours for applications, scholarships, or academic requirements.</source>
+        <target>Parfait pour les étudiants ayant besoin d'heures de bénévolat pour des demandes, bourses d'études, ou exigences académiques.</target>
+      </segment>
+    </unit>
+    <unit id="home.features.feature2.title">
+      <segment>
+        <source>Community Service Hours</source>
+        <target>Heures de Service Communautaire</target>
+      </segment>
+    </unit>
+    <unit id="home.features.feature2.description">
+      <segment>
+        <source>Approved hours for court requirements, school programs, and PEI mandatory community service.</source>
+        <target>Heures approuvées pour les exigences judiciaires, programmes scolaires, et service communautaire obligatoire de l'ÎPÉ.</target>
+      </segment>
+    </unit>
+    <unit id="home.features.feature3.title">
+      <segment>
+        <source>Flexible Scheduling</source>
+        <target>Horaire Flexible</target>
+      </segment>
+    </unit>
+    <unit id="home.features.feature3.description">
+      <segment>
+        <source>Choose your hours and commitments to fit around your studies, work, or other responsibilities.</source>
+        <target>Choisissez vos heures et engagements pour s'adapter à vos études, travail, ou autres responsabilités.</target>
+      </segment>
+    </unit>
+    <unit id="home.services.badge">
+      <segment>
+        <source>Volunteer Opportunities</source>
+        <target>Opportunités de Bénévolat</target>
+      </segment>
+    </unit>
+    <unit id="home.services.title">
+      <segment>
+        <source>Volunteer Opportunities That Make a Difference</source>
+        <target>Opportunités de Bénévolat Qui Font une Différence</target>
+      </segment>
+    </unit>
+    <unit id="home.services.description">
+      <segment>
+        <source>From friendly visits to helping with technology, our volunteers provide meaningful companionship while gaining valuable life experience and community hours.</source>
+        <target>Des visites amicales à l'aide avec la technologie, nos bénévoles offrent une compagnie significative tout en gagnant une expérience de vie précieuse et des heures communautaires.</target>
+      </segment>
+    </unit>
+    <unit id="home.services.item1">
+      <segment>
+        <source>Weekly friendly visits and conversations</source>
+        <target>Visites amicales et conversations hebdomadaires</target>
+      </segment>
+    </unit>
+    <unit id="home.services.item2">
+      <segment>
+        <source>Technology support and digital literacy</source>
+        <target>Support technologique et littératie numérique</target>
+      </segment>
+    </unit>
+    <unit id="home.services.item3">
+      <segment>
+        <source>Light assistance with daily activities</source>
+        <target>Aide légère avec les activités quotidiennes</target>
+      </segment>
+    </unit>
+    <unit id="home.services.item4">
+      <segment>
+        <source>Companionship for walks and outings</source>
+        <target>Compagnie pour promenades et sorties</target>
+      </segment>
+    </unit>
+    <unit id="home.services.cta">
+      <segment>
+        <source>View All Opportunities</source>
+        <target>Voir Toutes les Opportunités</target>
+      </segment>
+    </unit>
+    <unit id="home.services.card1">
+      <segment>
+        <source>Companionship</source>
+        <target>Compagnie</target>
+      </segment>
+    </unit>
+    <unit id="home.services.card2">
+      <segment>
+        <source>Learning</source>
+        <target>Apprentissage</target>
+      </segment>
+    </unit>
+    <unit id="home.services.card3">
+      <segment>
+        <source>Community Service</source>
+        <target>Service Communautaire</target>
+      </segment>
+    </unit>
+    <unit id="home.cta.title">
+      <segment>
+        <source>Ready to Make a Meaningful Impact?</source>
+        <target>Prêt à Faire un Impact Significatif?</target>
+      </segment>
+    </unit>
+    <unit id="home.cta.description">
+      <segment>
+        <source>Join our volunteer program today and start earning community service hours while building meaningful connections with elderly community members.</source>
+        <target>Rejoignez notre programme de bénévolat aujourd'hui et commencez à gagner des heures de service communautaire tout en développant des connexions significatives avec les membres âgés de la communauté.</target>
+      </segment>
+    </unit>
+    <unit id="home.cta.primary">
+      <segment>
+        <source>Apply to Volunteer</source>
+        <target>Postuler pour Être Bénévole</target>
+      </segment>
+    </unit>
+    <unit id="home.cta.phone">
+      <segment>
+        <source>Call (514) 555-0123</source>
+        <target>Appelez (514) 555-0123</target>
+      </segment>
+    </unit>
+
+    <!-- Common/Loading -->
+    <unit id="common.loading">
+      <segment>
+        <source>Loading...</source>
+        <target>Chargement...</target>
+      </segment>
+    </unit>
+
+    <!-- Navigation (missing keys) -->
+    <unit id="nav.bookConsultation">
+      <segment>
         <source>Book Free Consultation</source>
-        <target>Réserver une consultation gratuite</target>
-      </trans-unit>
-      <trans-unit id="action.get.started" datatype="html">
-        <source>Get Started</source>
-        <target>Commencer</target>
-      </trans-unit>
-      <trans-unit id="action.learn.more" datatype="html">
-        <source>Learn More</source>
-        <target>En savoir plus</target>
-      </trans-unit>
-    </body>
+        <target>Réserver une Consultation Gratuite</target>
+      </segment>
+    </unit>
+
+    <!-- Footer (missing keys) -->
+    <unit id="footer.services.mobility">
+      <segment>
+        <source>Mobility Support</source>
+        <target>Support de Mobilité</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.technology">
+      <segment>
+        <source>Technology Support</source>
+        <target>Support Technologique</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.errands">
+      <segment>
+        <source>Shopping & Errands</source>
+        <target>Courses et Commissions</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.meals">
+      <segment>
+        <source>Meal Preparation</source>
+        <target>Préparation de Repas</target>
+      </segment>
+    </unit>
+    <unit id="footer.services.respite">
+      <segment>
+        <source>Respite Care</source>
+        <target>Soins de Répit</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Support -->
+    <unit id="footer.support.safety">
+      <segment>
+        <source>Safety & Training</source>
+        <target>Sécurité et Formation</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.resources">
+      <segment>
+        <source>Volunteer Resources</source>
+        <target>Ressources pour Bénévoles</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.testimonials">
+      <segment>
+        <source>Volunteer Testimonials</source>
+        <target>Témoignages de Bénévoles</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.hours">
+      <segment>
+        <source>Hour Verification</source>
+        <target>Vérification d'Heures</target>
+      </segment>
+    </unit>
+    <unit id="footer.support.procedures">
+      <segment>
+        <source>Emergency Procedures</source>
+        <target>Procédures d'Urgence</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Company -->
+    <unit id="footer.company.joinTeam">
+      <segment>
+        <source>Become Volunteer</source>
+        <target>Devenir Bénévole</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.news">
+      <segment>
+        <source>News & Updates</source>
+        <target>Nouvelles et Mises à Jour</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.community">
+      <segment>
+        <source>Community Partnerships</source>
+        <target>Partenariats Communautaires</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.partners">
+      <segment>
+        <source>Academic Partners</source>
+        <target>Partenaires Académiques</target>
+      </segment>
+    </unit>
+    <unit id="footer.company.areas">
+      <segment>
+        <source>Service Areas</source>
+        <target>Zones de Service</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Contact -->
+    <unit id="footer.contact.title">
+      <segment>
+        <source>We Contact</source>
+        <target>Nous Contacter</target>
+      </segment>
+    </unit>
+    <unit id="footer.contact.phoneLabel">
+      <segment>
+        <source>Phone</source>
+        <target>Téléphone</target>
+      </segment>
+    </unit>
+    <unit id="footer.contact.emailLabel">
+      <segment>
+        <source>Email</source>
+        <target>Courriel</target>
+      </segment>
+    </unit>
+    <unit id="footer.contact.addressLabel">
+      <segment>
+        <source>Service Area</source>
+        <target>Zone de Service</target>
+      </segment>
+    </unit>
+    <unit id="footer.contact.addressValue">
+      <segment>
+        <source>Greater Montreal Area</source>
+        <target>Grand Montréal</target>
+      </segment>
+    </unit>
+    <unit id="footer.contact.emergencyLine">
+      <segment>
+        <source>24/7 Support Line:</source>
+        <target>Ligne de Support 24/7:</target>
+      </segment>
+    </unit>
+
+    <!-- Footer Legal -->
+    <unit id="footer.rights">
+      <segment>
+        <source>All rights reserved.</source>
+        <target>Tous droits réservés.</target>
+      </segment>
+    </unit>
+    <unit id="footer.legal.cookies">
+      <segment>
+        <source>Cookie Policy</source>
+        <target>Politique de Cookies</target>
+      </segment>
+    </unit>
+    <unit id="footer.social.follow">
+      <segment>
+        <source>Follow us:</source>
+        <target>Suivez-nous:</target>
+      </segment>
+    </unit>
+
+    <!-- Companions Component Missing Keys -->
+    <unit id="companions.loading.message">
+      <segment>
+        <source>Loading our amazing volunteers...</source>
+        <target>Chargement de nos bénévoles extraordinaires...</target>
+      </segment>
+    </unit>
+    <unit id="companions.loading.subMessage">
+      <segment>
+        <source>Finding the perfect companions for you</source>
+        <target>Trouvons les accompagnateurs parfaits pour vous</target>
+      </segment>
+    </unit>
+    <unit id="companions.stats.volunteers">
+      <segment>
+        <source>Active Volunteers</source>
+        <target>Bénévoles Actifs</target>
+      </segment>
+    </unit>
+    <unit id="companions.stats.trained">
+      <segment>
+        <source>Background Checked</source>
+        <target>Vérifiés aux Antécédents</target>
+      </segment>
+    </unit>
+    <unit id="companions.filters.allInterests">
+      <segment>
+        <source>All Specialties</source>
+        <target>Toutes les Spécialités</target>
+      </segment>
+    </unit>
+    <unit id="companions.featured.title">
+      <segment>
+        <source>Featured Companions</source>
+        <target>Bénévoles Vedettes</target>
+      </segment>
+    </unit>
+    <unit id="companions.badge.featured">
+      <segment>
+        <source>Featured</source>
+        <target>Vedette</target>
+      </segment>
+    </unit>
+
+    <unit id="companions.filters.availability.overnight">
+      <segment>
+        <source>Overnight</source>
+        <target>Nuit</target>
+      </segment>
+    </unit>
+    <!-- Availability Status Text -->
+    <unit id="companions.availability.available">
+      <segment>
+        <source>Available</source>
+        <target>Disponible</target>
+      </segment>
+    </unit>
+    <unit id="companions.availability.limited">
+      <segment>
+        <source>Limited</source>
+        <target>Limité</target>
+      </segment>
+    </unit>
+    <unit id="companions.availability.busy">
+      <segment>
+        <source>Busy</source>
+        <target>Occupé</target>
+      </segment>
+    </unit>
+    <unit id="companions.detail.experience">
+      <segment>
+        <source>Experience:</source>
+        <target>Expérience:</target>
+      </segment>
+    </unit>
+    <unit id="companions.detail.languages">
+      <segment>
+        <source>Languages:</source>
+        <target>Langues:</target>
+      </segment>
+    </unit>
+    <unit id="companions.action.request">
+      <segment>
+        <source>Request {name}</source>
+        <target>Demander {name}</target>
+      </segment>
+    </unit>
+    <unit id="companions.all.title">
+      <segment>
+        <source>All Available Companions</source>
+        <target>Tous les Bénévoles Disponibles</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.title">
+      <segment>
+        <source>Why Choose Our Companions?</source>
+        <target>Pourquoi Choisir Nos Bénévoles?</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.screening.title">
+      <segment>
+        <source>Rigorous Screening</source>
+        <target>Sélection Rigoureuse</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.screening.description">
+      <segment>
+        <source>Every companion undergoes comprehensive background checks, reference verification, and skills assessment to ensure safety and quality.</source>
+        <target>Chaque bénévole subit des vérifications d'antécédents complètes, une vérification des références, et une évaluation des compétences pour assurer la sécurité et la qualité.</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.training.title">
+      <segment>
+        <source>Ongoing Training</source>
+        <target>Formation Continue</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.training.description">
+      <segment>
+        <source>Our companions receive continuous education in elderly care, first aid, CPR, and specialized conditions like dementia.</source>
+        <target>Nos bénévoles reçoivent une formation continue en soins aux personnes âgées, premiers secours, RCR, et conditions spécialisées comme la démence.</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.compassion.title">
+      <segment>
+        <source>Genuine Compassion</source>
+        <target>Compassion Authentique</target>
+      </segment>
+    </unit>
+    <unit id="companions.why.compassion.description">
+      <segment>
+        <source>We select companions who demonstrate genuine care, patience, and understanding in working with elderly individuals.</source>
+        <target>Nous sélectionnons des bénévoles qui démontrent un soin authentique, de la patience, et de la compréhension en travaillant avec les personnes âgées.</target>
+      </segment>
+    </unit>
+    <unit id="companions.cta.title">
+      <segment>
+        <source>Ready to Meet Your Perfect Companion?</source>
+        <target>Prêt à Rencontrer Votre Bénévole Parfait?</target>
+      </segment>
+    </unit>
+    <unit id="companions.cta.description">
+      <segment>
+        <source>Schedule a complimentary consultation to discuss your needs and meet potential companions. We'll help you find the perfect match for your loved one's care.</source>
+        <target>Planifiez une consultation gratuite pour discuter de vos besoins et rencontrer des bénévoles potentiels. Nous vous aiderons à trouver le partenaire parfait pour les soins de votre proche.</target>
+      </segment>
+    </unit>
+    <unit id="companions.cta.schedule">
+      <segment>
+        <source>Schedule Free Consultation</source>
+        <target>Planifier une Consultation Gratuite</target>
+      </segment>
+    </unit>
+    <unit id="companions.cta.call">
+      <segment>
+        <source>Call (514) 555-0123</source>
+        <target>Appelez (514) 555-0123</target>
+      </segment>
+    </unit>
+
+    <!-- Request Messages -->
+    <unit id="companions.request.success">
+      <segment>
+        <source>Request sent for {name}! We'll contact you within 24 hours to discuss next steps.</source>
+        <target>Demande envoyée pour {name}! Nous vous contacterons dans les 24 heures pour discuter des prochaines étapes.</target>
+      </segment>
+    </unit>
+
+    <!-- Services Component -->
+    <unit id="services.loading.message">
+      <segment>
+        <source>Loading our services...</source>
+        <target>Chargement de nos services...</target>
+      </segment>
+    </unit>
+    <unit id="services.loading.subMessage">
+      <segment>
+        <source>Discovering ways we can help you</source>
+        <target>Découvrons comment nous pouvons vous aider</target>
+      </segment>
+    </unit>
+    <unit id="services.hero.title">
+      <segment>
+        <source>Volunteer Opportunities That Make a Difference</source>
+        <target>Opportunités de Bénévolat qui Font la Différence</target>
+      </segment>
+    </unit>
+    <unit id="services.hero.subtitle">
+      <segment>
+        <source>Connect with elderly community members through meaningful volunteer work while earning verified community service hours</source>
+        <target>Connectez-vous avec les membres âgés de la communauté grâce à un travail bénévole significatif tout en gagnant des heures de service communautaire vérifiées</target>
+      </segment>
+    </unit>
+    <unit id="services.section.title">
+      <segment>
+        <source>Ways to Make an Impact</source>
+        <target>Façons de Faire un Impact</target>
+      </segment>
+    </unit>
+    <unit id="services.section.subtitle">
+      <segment>
+        <source>Choose from various volunteer opportunities that match your skills and schedule while making a meaningful difference in someone's life</source>
+        <target>Choisissez parmi diverses opportunités de bénévolat qui correspondent à vos compétences et à votre horaire tout en faisant une différence significative dans la vie de quelqu'un</target>
+      </segment>
+    </unit>
+
+    <!-- Technology Service -->
+    <unit id="services.technology.title">
+      <segment>
+        <source>Technology Support</source>
+        <target>Support Technologique</target>
+      </segment>
+    </unit>
+    <unit id="services.technology.description">
+      <segment>
+        <source>Patient guidance with smartphones, tablets, computers, and other devices to stay connected with family.</source>
+        <target>Accompagnement patient avec smartphones, tablettes, ordinateurs et autres appareils pour rester connecté avec la famille.</target>
+      </segment>
+    </unit>
+    <unit id="services.technology.feature1">
+      <segment>
+        <source>Video calling with family and friends</source>
+        <target>Appels vidéo avec famille et amis</target>
+      </segment>
+    </unit>
+    <unit id="services.technology.feature2">
+      <segment>
+        <source>Email and social media assistance</source>
+        <target>Aide avec courriel et médias sociaux</target>
+      </segment>
+    </unit>
+    <unit id="services.technology.feature3">
+      <segment>
+        <source>Smartphone and tablet tutorials</source>
+        <target>Tutoriels smartphone et tablette</target>
+      </segment>
+    </unit>
+    <unit id="services.technology.feature4">
+      <segment>
+        <source>Online shopping and banking support</source>
+        <target>Aide avec achats en ligne et services bancaires</target>
+      </segment>
+    </unit>
+    <unit id="services.technology.feature5">
+      <segment>
+        <source>Medical app and device management</source>
+        <target>Gestion d'applications médicales et d'appareils</target>
+      </segment>
+    </unit>
+
+    <!-- Errands Service -->
+    <unit id="services.errands.title">
+      <segment>
+        <source>Errand Assistance</source>
+        <target>Aide aux Commissions</target>
+      </segment>
+    </unit>
+    <unit id="services.errands.description">
+      <segment>
+        <source>Reliable help with shopping, appointments, and essential tasks that maintain independence.</source>
+        <target>Aide fiable pour les courses, rendez-vous et tâches essentielles qui maintiennent l'indépendance.</target>
+      </segment>
+    </unit>
+    <unit id="services.errands.feature1">
+      <segment>
+        <source>Grocery shopping and errands</source>
+        <target>Courses d'épicerie et commissions</target>
+      </segment>
+    </unit>
+    <unit id="services.errands.feature2">
+      <segment>
+        <source>Pharmacy pickups and medication management</source>
+        <target>Récupération à la pharmacie et gestion de médicaments</target>
+      </segment>
+    </unit>
+    <unit id="services.errands.feature3">
+      <segment>
+        <source>Transportation to appointments</source>
+        <target>Transport aux rendez-vous</target>
+      </segment>
+    </unit>
+    <unit id="services.errands.feature4">
+      <segment>
+        <source>Banking and post office visits</source>
+        <target>Visites à la banque et au bureau de poste</target>
+      </segment>
+    </unit>
+    <unit id="services.errands.feature5">
+      <segment>
+        <source>Pet care and veterinary visits</source>
+        <target>Soins pour animaux et visites vétérinaires</target>
+      </segment>
+    </unit>
+
+    <!-- Meals Service -->
+    <unit id="services.meals.title">
+      <segment>
+        <source>Meal Preparation</source>
+        <target>Préparation de Repas</target>
+      </segment>
+    </unit>
+    <unit id="services.meals.description">
+      <segment>
+        <source>Nutritious meal planning, preparation, and cooking support to maintain healthy eating habits.</source>
+        <target>Planification, préparation et aide à la cuisson de repas nutritifs pour maintenir de saines habitudes alimentaires.</target>
+      </segment>
+    </unit>
+    <unit id="services.meals.feature1">
+      <segment>
+        <source>Meal planning and grocery lists</source>
+        <target>Planification de repas et listes d'épicerie</target>
+      </segment>
+    </unit>
+    <unit id="services.meals.feature2">
+      <segment>
+        <source>Fresh meal preparation and cooking</source>
+        <target>Préparation et cuisson de repas frais</target>
+      </segment>
+    </unit>
+    <unit id="services.meals.feature3">
+      <segment>
+        <source>Special dietary requirement support</source>
+        <target>Support pour besoins alimentaires spéciaux</target>
+      </segment>
+    </unit>
+    <unit id="services.meals.feature4">
+      <segment>
+        <source>Kitchen safety and organization</source>
+        <target>Sécurité et organisation de cuisine</target>
+      </segment>
+    </unit>
+    <unit id="services.meals.feature5">
+      <segment>
+        <source>Encouraging proper nutrition and hydration</source>
+        <target>Encouragement d'une nutrition et hydratation appropriées</target>
+      </segment>
+    </unit>
+
+    <!-- Respite Service -->
+    <unit id="services.respite.title">
+      <segment>
+        <source>Respite Care</source>
+        <target>Soins de Répit</target>
+      </segment>
+    </unit>
+    <unit id="services.respite.description">
+      <segment>
+        <source>Temporary relief care for family caregivers, providing professional supervision and companionship.</source>
+        <target>Soins de répit temporaires pour les aidants familiaux, offrant supervision professionnelle et compagnie.</target>
+      </segment>
+    </unit>
+    <unit id="services.respite.feature1">
+      <segment>
+        <source>Short-term care relief (few hours to days)</source>
+        <target>Répit de soins à court terme (quelques heures à quelques jours)</target>
+      </segment>
+    </unit>
+    <unit id="services.respite.feature2">
+      <segment>
+        <source>Overnight care supervision available</source>
+        <target>Supervision de soins de nuit disponible</target>
+      </segment>
+    </unit>
+    <unit id="services.respite.feature3">
+      <segment>
+        <source>Medication reminders and monitoring</source>
+        <target>Rappels et surveillance de médicaments</target>
+      </segment>
+    </unit>
+    <unit id="services.respite.feature4">
+      <segment>
+        <source>Safety supervision and emergency response</source>
+        <target>Supervision de sécurité et réponse d'urgence</target>
+      </segment>
+    </unit>
+    <unit id="services.respite.feature5">
+      <segment>
+        <source>Flexible scheduling for family needs</source>
+        <target>Horaires flexibles pour les besoins familiaux</target>
+      </segment>
+    </unit>
+
+    <!-- Pricing -->
+    <unit id="services.pricing.mobility">
+      <segment>
+        <source>Starting at $30/hour</source>
+        <target>À partir de 30$/heure</target>
+      </segment>
+    </unit>
+    <unit id="services.pricing.technology">
+      <segment>
+        <source>Starting at $35/hour</source>
+        <target>À partir de 35$/heure</target>
+      </segment>
+    </unit>
+    <unit id="services.pricing.errands">
+      <segment>
+        <source>Starting at $28/hour</source>
+        <target>À partir de 28$/heure</target>
+      </segment>
+    </unit>
+    <unit id="services.pricing.meals">
+      <segment>
+        <source>Starting at $32/hour</source>
+        <target>À partir de 32$/heure</target>
+      </segment>
+    </unit>
+    <unit id="services.pricing.respite">
+      <segment>
+        <source>Starting at $35/hour</source>
+        <target>À partir de 35$/heure</target>
+      </segment>
+    </unit>
+
+    <!-- Missing Booking Component Keys -->
+    <unit id="booking.hero.badge.flexible">
+      <segment>
+        <source>Flexible</source>
+        <target>Flexible</target>
+      </segment>
+    </unit>
+    <unit id="booking.hero.badge.free">
+      <segment>
+        <source>Free</source>
+        <target>Gratuit</target>
+      </segment>
+    </unit>
+    <unit id="booking.hero.badge.meaningful">
+      <segment>
+        <source>Meaningful</source>
+        <target>Significatif</target>
+      </segment>
+    </unit>
+    <unit id="booking.form.subtitle">
+      <segment>
+        <source>Tell us about your volunteer preferences and availability</source>
+        <target>Parlez-nous de vos préférences de bénévolat et de votre disponibilité</target>
+      </segment>
+    </unit>
+
+    <!-- Personal Information -->
+    <unit id="booking.personal.firstName">
+      <segment>
+        <source>First Name *</source>
+        <target>Prénom *</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.firstName.error">
+      <segment>
+        <source>First name is required</source>
+        <target>Le prénom est requis</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.lastName">
+      <segment>
+        <source>Last Name *</source>
+        <target>Nom *</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.lastName.error">
+      <segment>
+        <source>Last name is required</source>
+        <target>Le nom est requis</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.email">
+      <segment>
+        <source>Email Address *</source>
+        <target>Adresse Courriel *</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.email.required">
+      <segment>
+        <source>Email is required</source>
+        <target>Le courriel est requis</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.email.invalid">
+      <segment>
+        <source>Please enter a valid email</source>
+        <target>Veuillez entrer un courriel valide</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.phone">
+      <segment>
+        <source>Phone Number *</source>
+        <target>Numéro de Téléphone *</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.phone.error">
+      <segment>
+        <source>Phone number is required</source>
+        <target>Le numéro de téléphone est requis</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.relationship">
+      <segment>
+        <source>Your Relationship to the Person Needing Care *</source>
+        <target>Votre Relation avec la Personne Ayant Besoin de Soins *</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.relationship.error">
+      <segment>
+        <source>Please select your relationship to the care recipient</source>
+        <target>Veuillez sélectionner votre relation avec le bénéficiaire de soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.personal.title">
+      <segment>
+        <source>Personal Information</source>
+        <target>Informations Personnelles</target>
+      </segment>
+    </unit>
+    <unit id="booking.client.title">
+      <segment>
+        <source>Care Recipient Information</source>
+        <target>Informations du Bénéficiaire de Soins</target>
+      </segment>
+    </unit>
+    <unit id="booking.client.age">
+      <segment>
+        <source>Age Range</source>
+        <target>Tranche d'Âge</target>
+      </segment>
+    </unit>
+    <unit id="booking.client.living">
+      <segment>
+        <source>Living Arrangement</source>
+        <target>Situation de Logement</target>
+      </segment>
+    </unit>
+    <unit id="booking.client.address">
+      <segment>
+        <source>Service Address</source>
+        <target>Adresse de Service</target>
+      </segment>
+    </unit>
+    <unit id="booking.client.address.help">
+      <segment>
+        <source>This helps us match you with companions in your area</source>
+        <target>Ceci nous aide à vous jumeler avec des accompagnateurs dans votre région</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.title">
+      <segment>
+        <source>Care Needs & Services</source>
+        <target>Besoins de Soins et Services</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.services">
+      <segment>
+        <source>Services Needed (Select all that apply)</source>
+        <target>Services Requis (Sélectionnez toutes les options applicables)</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.companionship">
+      <segment>
+        <source>Companionship & Social Activities</source>
+        <target>Compagnie et Activités Sociales</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.mobility">
+      <segment>
+        <source>Mobility Assistance</source>
+        <target>Aide à la Mobilité</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.technology">
+      <segment>
+        <source>Technology Support</source>
+        <target>Support Technologique</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.errands">
+      <segment>
+        <source>Errands & Shopping</source>
+        <target>Courses et Emplettes</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.meals">
+      <segment>
+        <source>Meal Preparation</source>
+        <target>Préparation de Repas</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.respite">
+      <segment>
+        <source>Respite Care for Family</source>
+        <target>Soins de Répit pour la Famille</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.urgency">
+      <segment>
+        <source>When do you need services to begin?</source>
+        <target>Quand avez-vous besoin que les services commencent?</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.hours">
+      <segment>
+        <source>Hours per week needed</source>
+        <target>Heures par semaine nécessaires</target>
+      </segment>
+    </unit>
+    <unit id="booking.needs.times">
+      <segment>
+        <source>Preferred times/days</source>
+        <target>Heures/jours préférés</target>
+      </segment>
+    </unit>
+    <unit id="booking.additional.title">
+      <segment>
+        <source>Additional Information</source>
+        <target>Informations Supplémentaires</target>
+      </segment>
+    </unit>
+    <unit id="booking.additional.medical">
+      <segment>
+        <source>Medical conditions or special needs</source>
+        <target>Conditions médicales ou besoins spéciaux</target>
+      </segment>
+    </unit>
+    <unit id="booking.additional.medical.help">
+      <segment>
+        <source>This information helps us ensure the safety and comfort of all parties</source>
+        <target>Cette information nous aide à assurer la sécurité et le confort de toutes les parties</target>
+      </segment>
+    </unit>
+    <unit id="booking.additional.notes">
+      <segment>
+        <source>Additional notes or questions</source>
+        <target>Notes ou questions supplémentaires</target>
+      </segment>
+    </unit>
+    <unit id="booking.additional.consultation">
+      <segment>
+        <source>Preferred consultation time</source>
+        <target>Heure de consultation préférée</target>
+      </segment>
+    </unit>
+    <unit id="booking.consent.privacy">
+      <segment>
+        <source>I agree to KindCompanion's privacy policy and terms of service</source>
+        <target>J'accepte la politique de confidentialité et les conditions de service de KindCompanion</target>
+      </segment>
+    </unit>
+    <unit id="booking.consent.privacy.error">
+      <segment>
+        <source>Please accept our privacy policy to continue</source>
+        <target>Veuillez accepter notre politique de confidentialité pour continuer</target>
+      </segment>
+    </unit>
+    <unit id="booking.consent.marketing">
+      <segment>
+        <source>I would like to receive updates about KindCompanion services and volunteer opportunities</source>
+        <target>J'aimerais recevoir des mises à jour sur les services KindCompanion et les opportunités de bénévolat</target>
+      </segment>
+    </unit>
+    <unit id="booking.submit.text">
+      <segment>
+        <source>Submit Consultation Request</source>
+        <target>Soumettre la Demande de Consultation</target>
+      </segment>
+    </unit>
+    <unit id="booking.submit.loading">
+      <segment>
+        <source>Submitting...</source>
+        <target>Soumission...</target>
+      </segment>
+    </unit>
+    <unit id="booking.submit.footer">
+      <segment>
+        <source>Our team will review your request and contact you within 24 hours to schedule your consultation.</source>
+        <target>Notre équipe examinera votre demande et vous contactera dans les 24 heures pour planifier votre consultation.</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.title">
+      <segment>
+        <source>Thank You for Your Request!</source>
+        <target>Merci pour Votre Demande!</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.message">
+      <segment>
+        <source>We've received your consultation request and will be in touch soon.</source>
+        <target>Nous avons reçu votre demande de consultation et nous vous contacterons bientôt.</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.nextSteps">
+      <segment>
+        <source>Next Steps:</source>
+        <target>Prochaines Étapes:</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.step1">
+      <segment>
+        <source>Our team will review your request within 24 hours</source>
+        <target>Notre équipe examinera votre demande dans les 24 heures</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.step2">
+      <segment>
+        <source>We'll contact you to schedule your consultation</source>
+        <target>Nous vous contacterons pour planifier votre consultation</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.step3">
+      <segment>
+        <source>Begin matching with qualified companions in your area</source>
+        <target>Commencer le jumelage avec des accompagnateurs qualifiés dans votre région</target>
+      </segment>
+    </unit>
+    <unit id="booking.success.close">
+      <segment>
+        <source>Return to Home</source>
+        <target>Retourner à l'Accueil</target>
+      </segment>
+    </unit>
+      <segment>
+        <source>Please select your relationship</source>
+        <target>Veuillez sélectionner votre relation</target>
+      </segment>
+    </unit>
+
   </file>
 </xliff>
