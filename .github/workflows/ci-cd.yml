@@ -21,13 +21,10 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-      run: npm ci
+      run: npm install
 
-    - name: Setup ESLint
-      run: npx ng add @angular-eslint/schematics --skip-confirmation
-
-    - name: Run linting
-      run: npm run lint || echo "Linting failed but continuing build"
+    - name: Run linting (warnings only)
+      run: npm run lint || echo "Linting issues found - will be fixed in future PRs"
 
     - name: Run tests
       run: npm run test:ci

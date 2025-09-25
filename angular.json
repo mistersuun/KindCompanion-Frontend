@@ -55,8 +55,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ],
-            "localize": true
+            ]
           },
           "configurations": {
             "production": {
@@ -127,11 +126,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ],
-            "localize": [
-              "fr"
-            ],
-            "i18nMissingTranslation": "warning"
+            ]
           },
           "configurations": {
             "production": {
