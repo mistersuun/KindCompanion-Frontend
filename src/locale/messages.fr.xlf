@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- Navigation -->
+      <trans-unit id="nav.home" datatype="html">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="html">
+        <source>About Us</source>
+        <target>À Propos</target>
+      </trans-unit>
+      <trans-unit id="nav.services" datatype="html">
+        <source>Services</source>
+        <target>Services</target>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+
+      <!-- Common Actions -->
+      <trans-unit id="action.book.consultation" datatype="html">
+        <source>Book Free Consultation</source>
+        <target>Réserver une consultation gratuite</target>
+      </trans-unit>
+      <trans-unit id="action.get.started" datatype="html">
+        <source>Get Started</source>
+        <target>Commencer</target>
+      </trans-unit>
+      <trans-unit id="action.learn.more" datatype="html">
+        <source>Learn More</source>
+        <target>En savoir plus</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
