@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { LanguageService, SupportedLanguage } from '../../../core/services/language.service';
@@ -139,15 +139,11 @@ import { LanguageService, SupportedLanguage } from '../../../core/services/langu
     }
   `]
 })
-export class LanguageToggleComponent implements OnInit {
+export class LanguageToggleComponent {
+  private languageService = inject(LanguageService);
+
   isLoading: boolean = false;
   switchingTo: SupportedLanguage | null = null;
-
-  constructor(private languageService: LanguageService) {}
-
-  ngOnInit(): void {
-    // Initialize component
-  }
 
   switchLanguage(language: SupportedLanguage): void {
     if (!this.isCurrentLanguage(language) && !this.isLoading) {

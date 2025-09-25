@@ -32,7 +32,8 @@ export interface SelectOption {
            (keydown)="onKeyDown($event)"
            role="combobox"
            [attr.aria-expanded]="isOpen"
-           [attr.aria-haspopup]="true">
+           [attr.aria-haspopup]="true"
+           [attr.aria-controls]="isOpen ? 'dropdown-options' : null">
 
         <span class="select-value" [class.placeholder]="!selectedOption">
           {{ selectedOption ? selectedOption.label : placeholder }}
@@ -47,12 +48,14 @@ export interface SelectOption {
 
       <!-- Dropdown Options -->
       <div class="select-dropdown" *ngIf="isOpen" (click)="$event.stopPropagation()">
-        <div class="select-options">
+        <div class="select-options" id="dropdown-options" role="listbox">
           <div *ngFor="let option of options; trackBy: trackByFn"
                class="select-option"
                [class.selected]="option.value === value"
                [class.disabled]="option.disabled"
                (click)="selectOption(option)"
+               (keydown)="onOptionKeyDown($event, option)"
+               [attr.tabindex]="option.disabled ? -1 : 0"
                [attr.role]="'option'"
                [attr.aria-selected]="option.value === value">
             {{ option.label }}
@@ -64,7 +67,9 @@ export interface SelectOption {
     <!-- Backdrop -->
     <div class="select-backdrop"
          *ngIf="isOpen"
-         (click)="closeDropdown()"></div>
+         (click)="closeDropdown()"
+         (keydown)="onBackdropKeyDown($event)"
+         [attr.tabindex]="-1"></div>
   `,
   styles: [`
     .custom-select {
@@ -258,7 +263,7 @@ export class CustomSelectComponent implements ControlValueAccessor, OnInit, OnCh
   isOpen: boolean = false;
   selectedOption: SelectOption | null = null;
 
-  private onChange = (_value: any) => {};
+  private onChange = (value: string | null) => { void value; };
   private onTouched = () => {};
 
   constructor() {
@@ -354,21 +359,44 @@ export class CustomSelectComponent implements ControlValueAccessor, OnInit, OnCh
     return option.value;
   }
 
+  onOptionKeyDown(event: KeyboardEvent, option: SelectOption) {
+    if (option.disabled) return;
+
+    switch (event.key) {
+      case 'Enter':
+      case ' ':
+        event.preventDefault();
+        this.selectOption(option);
+        break;
+      case 'Escape':
+        event.preventDefault();
+        this.closeDropdown();
+        break;
+    }
+  }
+
+  onBackdropKeyDown(event: KeyboardEvent) {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      this.closeDropdown();
+    }
+  }
+
   private updateSelectedOption() {
     this.selectedOption = this.options.find(option => option.value === this.value) || null;
   }
 
   // ControlValueAccessor implementation
-  writeValue(value: any): void {
+  writeValue(value: string | null): void {
     this.value = value || '';
     this.updateSelectedOption();
   }
 
-  registerOnChange(fn: any): void {
+  registerOnChange(fn: (value: string | null) => void): void {
     this.onChange = fn;
   }
 
-  registerOnTouched(fn: any): void {
+  registerOnTouched(fn: () => void): void {
     this.onTouched = fn;
   }
 
