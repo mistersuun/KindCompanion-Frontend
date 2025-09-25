@@ -44,8 +44,11 @@ Thumbs.db
 
 # Secrets and credentials
 .concourse/credentials.yml
+.concourse/keys/
 .env
 .env.local
 .env.production
 *.key
 *.pem
+*session_signing_key*
+

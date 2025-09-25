@@ -24,7 +24,7 @@ jobs:
       run: npm ci
 
     - name: Setup ESLint
-      run: ng add @angular-eslint/schematics --skip-confirmation
+      run: npx ng add @angular-eslint/schematics --skip-confirmation
 
     - name: Run linting
       run: npm run lint
