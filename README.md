@@ -1,0 +1,2 @@
+# KindCompanion-Frontend
+Company Website
